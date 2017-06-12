@@ -12,6 +12,7 @@ const clubs = [
   'Breeze Bikes RT',
   'Cestria C.C.',
   'Cestria Cycles RT',
+  'Cestria Cycles Racing Team',
   'Cramlington CC',
   'Derwentside CC',
   'Gosforth RC',
