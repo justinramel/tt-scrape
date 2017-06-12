@@ -62,8 +62,12 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let points = calculatePoints(riders)
       points.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
-        const key = slugify(`${event.name} ${event.length} ${event.date}`)
-        found[key] = rider.bar
+        const key = slugify(`${event.name} ${event.date} ${event.length}`)
+        if (!found[event.length]) {
+          found[event.length] = []
+        }
+        found[event.length].push({eventId: event.id, key, bar: rider.bar})
+        found.totals = totals(found)
       })
     })
 
@@ -99,6 +103,29 @@ axios.get(resultUrl)
     console.log(error)
   })
 */
+
+function totals (rider) {
+  let totalShort = 0
+  let totalMedium = 0
+  let totalLong = 0
+
+  if (rider.short) {
+    totalShort = rider.short.sort((a, b) => b.bar - a.bar).slice(0, 2).reduce((total, result) => total + result.bar, 0)
+  }
+  if (rider.medium) {
+    totalMedium = rider.medium.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
+  }
+  if (rider.long) {
+    totalLong = rider.long.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
+  }
+
+  return {
+    totalShort,
+    totalMedium,
+    totalLong,
+    grandTotal: totalShort + totalMedium + totalLong
+  }
+}
 
 function extractResults (response) {
   let $ = cheerio.load(response.data)
