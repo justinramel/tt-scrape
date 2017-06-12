@@ -25,7 +25,6 @@ const clubs = [
   'Ryton Tri Club',
   'South Shields Velo Cycling Club',
   'Sunderland Clarion',
-  'Tyne Tri',
   'Tyneside Vagabonds CC',
   'Wansbeck CC'
 ]
@@ -109,15 +108,15 @@ function inBar (rider) {
 }
 
 function vet (rider) {
-  return rider.category === 'Vet' && rider.time !== ''
+  return inBar(rider) && rider.category === 'Vet'
 }
 
 function lady (rider) {
-  return rider.sex === 'Female' && rider.time !== ''
+  return inBar(rider) && rider.sex === 'Female'
 }
 
 function junior (rider) {
-  return rider.category === 'Juvenile' && rider.time !== ''
+  return inBar(rider) && rider.category === 'Juvenile'
 }
 
 function extractResults (response) {
