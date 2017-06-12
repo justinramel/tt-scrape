@@ -117,7 +117,7 @@ function lady (rider) {
 }
 
 function junior (rider) {
-  return inBar(rider) && rider.category === 'Juvenile'
+  return inBar(rider) && rider.category === 'Junior'
 }
 
 function extractResults (response) {
