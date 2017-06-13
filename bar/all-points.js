@@ -90,62 +90,35 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     })
     console.log('', '', '', '', '')
 
-    console.log(`pos, team, points`)
-    position = 1
-    barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
-      let data = `${position++}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
-      events.forEach(event => {
-        let barPoints = result.events[event.id] ? result.events[event.id].bar : 0
-        data = data + `, ${barPoints}`
-      })
-      console.log(data)
-    })
-    console.log('', '', '', '', '')
-
-    let grouped = groupBy(barResults, x => x.club)
-    grouped.forEach(clubs => {
-      let top3 = clubs.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
-      debugger
-
-      // if (times.length > 1) {
-      //   const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
-      //   times.forEach(time => {
-      //     let result = points.find(p => p.id === time.id)
-      //     result.bar = best
-      //   })
-      // }
-    })
-
+    let teamResults = calculateTeamPoints(barResults)
+    outputTeamResults(teamResults)
   }))
 
-// axios.all(events.map(extractResults))
-//   // .then(riders => axios.all(riders.map(getPersonalBests)))
-//   // .then(riders => axios.all(riders.map(getResults)))
-//   .then(x => {
-//     // x.forEach(y => console.log(y.join(',')))
-//     debugger
-//   })
-//   .catch(function (error) {
-//     console.log(error)
-//   })
-
-
-/*
-axios.get(resultUrl)
-  .then(extractResults)
-  .then(extractRiders)
-  .then(calculatePoints)
-  .then(riders => {
-    console.log('position, name, gender, category, club, time, speed, bar, vbar, lbar, jbar')
-    riders.forEach(rider => console.log(`${rider.position}, ${rider.name}, ${rider.sex}, ${rider.category}, ${rider.club}, ${rider.time}, ${rider.speed}, ${rider.bar}, ${rider.vbar}, ${rider.lbar}, ${rider.jbar}`))
+function calculateTeamPoints (data) {
+  let results = []
+  groupBy(data, x => x.club).forEach(clubs => {
+    let top3 = clubs.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
+    let total = top3.reduce((total, rider) => total + rider.totals.grand, 0)
+    results.push({
+      club: clubs[0].club,
+      total,
+      top3
+    })
   })
-  // .then(riders => {
-  //   riders.forEach(rider => console.log(JSON.stringify(rider)))
-  // })
-  .catch(function (error) {
-    console.log(error)
+  results.sort((a, b) => b.total - a.total)
+  return results
+}
+
+function outputTeamResults (results) {
+  console.log(`pos, team, points`)
+  let position = 1
+  results.forEach(team => {
+    console.log(`${position++}, ${team.club}, ${team.total}`)
+    team.top3.forEach(rider => {
+      console.log(`,,, ${rider.name}, ${rider.totals.grand}`)
+    })
   })
-*/
+}
 
 function totals (rider) {
   let short = 0
