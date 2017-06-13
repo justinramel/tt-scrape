@@ -22,7 +22,7 @@ const clubs = [
   'Manilla Cycling',
   'Muckle Cycle Club',
   'North Tyneside Riders CC',
-  'Northumbria Police CC',
+  'Northumbria Police C.C.',
   'Ryton Tri Club',
   'South Shields Velo Cycling Club',
   'Sunderland Clarion',
@@ -62,17 +62,62 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let points = calculatePoints(riders)
       points.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
-        const key = slugify(`${event.name} ${event.date} ${event.length}`)
         if (!found[event.length]) {
           found[event.length] = []
         }
-        found[event.length].push({eventId: event.id, key, bar: rider.bar})
+        if (!found.events) {
+          found.events = {}
+        }
+        found.events[event.id] = rider
+        found[event.length].push({eventId: event.id, bar: rider.bar})
         found.totals = totals(found)
       })
     })
 
-    debugger
-    console.log(barResults)
+    let header = `pos, name, club, total, short, medium, long`
+    events.forEach(event => {
+      header = header + `, ${event.name}`
+    })
+    console.log(header)
+    let position = 1
+    barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
+      let data = `${position++}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
+      events.forEach(event => {
+        let barPoints = result.events[event.id] ? result.events[event.id].bar : 0
+        data = data + `, ${barPoints}`
+      })
+      console.log(data)
+    })
+    console.log('', '', '', '', '')
+
+    console.log(`pos, team, points`)
+    position = 1
+    barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
+      let data = `${position++}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
+      events.forEach(event => {
+        let barPoints = result.events[event.id] ? result.events[event.id].bar : 0
+        data = data + `, ${barPoints}`
+      })
+      console.log(data)
+    })
+    console.log('', '', '', '', '')
+
+    let grouped = groupBy(barResults, x => x.club)
+    grouped.forEach(clubs => {
+      clubs.forEach(club => {
+        let top3 = club.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
+        debugger
+      })
+
+      // if (times.length > 1) {
+      //   const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
+      //   times.forEach(time => {
+      //     let result = points.find(p => p.id === time.id)
+      //     result.bar = best
+      //   })
+      // }
+    })
+
   }))
 
 // axios.all(events.map(extractResults))
@@ -105,25 +150,25 @@ axios.get(resultUrl)
 */
 
 function totals (rider) {
-  let totalShort = 0
-  let totalMedium = 0
-  let totalLong = 0
+  let short = 0
+  let medium = 0
+  let long = 0
 
   if (rider.short) {
-    totalShort = rider.short.sort((a, b) => b.bar - a.bar).slice(0, 2).reduce((total, result) => total + result.bar, 0)
+    short = rider.short.sort((a, b) => b.bar - a.bar).slice(0, 2).reduce((total, result) => total + result.bar, 0)
   }
   if (rider.medium) {
-    totalMedium = rider.medium.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
+    medium = rider.medium.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
   }
   if (rider.long) {
-    totalLong = rider.long.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
+    long = rider.long.sort((a, b) => b.bar - a.bar).slice(0, 1).reduce((total, result) => total + result.bar, 0)
   }
 
   return {
-    totalShort,
-    totalMedium,
-    totalLong,
-    grandTotal: totalShort + totalMedium + totalLong
+    short,
+    medium,
+    long,
+    grand: short + medium + long
   }
 }
 
@@ -163,7 +208,7 @@ function calculatePoints (riders) {
   let ladyPoints = 120
   let juniorPoints = 120
 
-  return riders.map(rider => {
+  let points = riders.map(rider => {
     let bar = 0
     if (inBar(rider)) {
       bar = barPoints
@@ -185,6 +230,7 @@ function calculatePoints (riders) {
       juniorPoints = juniorPoints - 1
     }
     return {
+      id: rider.id,
       position: rider.position,
       name: rider.name,
       sex: rider.sex,
@@ -192,13 +238,39 @@ function calculatePoints (riders) {
       club: rider.club,
       time: rider.time,
       speed: rider.speed,
-      id: rider.id,
       bar,
       vbar,
       lbar,
       jbar
     }
   })
+
+  // Fix time draws
+  let grouped = groupBy(points, point => point.time)
+  grouped.forEach(times => {
+    if (times.length > 1) {
+      const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
+      times.forEach(time => {
+        let result = points.find(p => p.id === time.id)
+        result.bar = best
+      })
+    }
+  })
+  return points
+}
+
+function groupBy (list, keyGetter) {
+  const map = new Map()
+  list.forEach((item) => {
+    const key = keyGetter(item)
+    const collection = map.get(key)
+    if (!collection) {
+      map.set(key, [item])
+    } else {
+      collection.push(item)
+    }
+  })
+  return map
 }
 
 function inBar (rider) {
@@ -217,17 +289,7 @@ function junior (rider) {
   return inBar(rider) && rider.category === 'Junior'
 }
 
-
 function formatTime (time) {
   let formattedTime = time.split(':').length === 3 ? time : '0:' + (time || '00:00')
   return formattedTime === '0:00:00' ? '' : formattedTime
-}
-
-function slugify (text) {
-  return text.toString().toLowerCase()
-    .replace(/\s+/g, '-') // Replace spaces with -
-    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
-    .replace(/\-\-+/g, '-') // Replace multiple - with single -
-    .replace(/^-+/, '') // Trim - from start of text
-    .replace(/-+$/, '') // Trim - from end of text
 }
