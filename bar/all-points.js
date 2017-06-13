@@ -104,10 +104,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
 
     let grouped = groupBy(barResults, x => x.club)
     grouped.forEach(clubs => {
-      clubs.forEach(club => {
-        let top3 = club.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
-        debugger
-      })
+      let top3 = clubs.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
+      debugger
 
       // if (times.length > 1) {
       //   const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
