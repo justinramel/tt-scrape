@@ -89,15 +89,28 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           lbar: rider.lbar,
           jbar: rider.jbar
         })
+        if (!found.pointsHistory) {
+          found.pointsHistory = []
+        }
+        found.pointsHistory.push({
+          eventId: event.id,
+          date: event.date,
+          name: event.name,
+          bar: rider.bar,
+          vbar: rider.vbar,
+          lbar: rider.lbar,
+          jbar: rider.jbar,
+          position: rider.position
+        })
 
         found.totals = totals(found)
       })
       let position = 1
       barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
-        if (!result.pointsHistory) {
-          result.pointsHistory = []
+        if (!result.barHistory) {
+          result.barHistory = []
         }
-        result.pointsHistory.push({
+        result.barHistory.push({
           eventId: event.id,
           date: event.date,
           name: event.name,
