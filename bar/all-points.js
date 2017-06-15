@@ -60,7 +60,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
         }
       })
       let points = calculatePoints(riders)
-      points.forEach(rider => {
+      let position = 1
+      points.sort((a, b) => b.bar - a.bar).forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
         if (!found[event.length]) {
           found[event.length] = []
@@ -71,6 +72,15 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
         found.events[event.id] = rider
         found[event.length].push({eventId: event.id, bar: rider.bar})
         found.totals = totals(found)
+        if (!found.pointsHistory) {
+          found.pointsHistory = []
+        }
+        found.pointsHistory.push({
+          eventId: event.id,
+          date: event.date,
+          points: found.totals,
+          position: position++
+        })
       })
     })
 
@@ -81,13 +91,21 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     console.log(header)
     let position = 1
     barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
-      let data = `${position++}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
+      result.position = position++
+      let data = `${result.position}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
       events.forEach(event => {
         let barPoints = result.events[event.id] ? result.events[event.id].bar : 0
         data = data + `, ${barPoints}`
       })
       console.log(data)
     })
+
+    addTags()
+    var fs = require('fs')
+    fs.writeFile('bar.json', JSON.stringify(barResults, null, 2), function (err) {
+      console.log(err)
+    })
+
     console.log('', '', '', '', '')
 
     let teamResults = calculateTeamPoints(barResults)
@@ -109,6 +127,13 @@ function calculateTeamPoints (data) {
   return results
 }
 
+function addTags () {
+  // barResults.forEach(result => {
+  //   results.tags = []
+  //   results.events
+  // })
+}
+
 function outputTeamResults (results) {
   console.log(`pos, team, points`)
   let position = 1
@@ -125,16 +150,22 @@ function totals (rider) {
   let medium = 0
   let long = 0
 
-  if (rider.short) {
+  const distances = ['short', 'medium', 'long']
+  distances.forEach(distance => {
+    if (!rider[distance]) {
+      rider[distance] = []
+    }
+  })
+
+  if (rider.short.length > 0) {
     short = rider.short.sort((a, b) => b.bar - a.bar).slice(0, 2).reduce((total, result) => total + result.bar, 0)
   }
-  if (rider.medium) {
+  if (rider.medium.length > 0) {
     medium = rider.medium.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
   }
-  if (rider.long) {
+  if (rider.long.length > 0) {
     long = rider.long.sort((a, b) => b.bar - a.bar).slice(0, 1).reduce((total, result) => total + result.bar, 0)
   }
-
   return {
     short,
     medium,
