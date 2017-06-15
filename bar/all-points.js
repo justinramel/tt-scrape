@@ -60,8 +60,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
         }
       })
       let points = calculatePoints(riders)
-      let position = 1
-      points.sort((a, b) => b.bar - a.bar).forEach(rider => {
+      points.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
 
         // Events code being replaced with race code
@@ -92,13 +91,17 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
         })
 
         found.totals = totals(found)
-        if (!found.pointsHistory) {
-          found.pointsHistory = []
+      })
+      let position = 1
+      barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
+        if (!result.pointsHistory) {
+          result.pointsHistory = []
         }
-        found.pointsHistory.push({
+        result.pointsHistory.push({
           eventId: event.id,
           date: event.date,
-          points: found.totals,
+          name: event.name,
+          points: result.totals,
           position: position++
         })
       })
@@ -165,7 +168,6 @@ function addTags () {
 
     addTag(result, r => r.position === 'DNS', 'is-black', 'DNS')
     addTag(result, r => r.position === 'DNF', 'is-dark', 'DNF')
-
   })
 }
 
