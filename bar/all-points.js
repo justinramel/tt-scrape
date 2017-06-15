@@ -63,6 +63,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let position = 1
       points.sort((a, b) => b.bar - a.bar).forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
+
+        // Events code being replaced with race code
         if (!found[event.length]) {
           found[event.length] = []
         }
@@ -71,6 +73,24 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
         }
         found.events[event.id] = rider
         found[event.length].push({eventId: event.id, bar: rider.bar})
+        // -----------------------------------------------------------------
+
+        if (!found.races) {
+          found.races = []
+        }
+        found.races.push({
+          raceId: event.id,
+          raceCategory: event.length,
+          position: rider.position,
+          time: rider.time,
+          speed: rider.speed,
+          bar: rider.bar,
+          barPosition: 120 - rider.bar + 1,
+          vbar: rider.vbar,
+          lbar: rider.lbar,
+          jbar: rider.jbar
+        })
+
         found.totals = totals(found)
         if (!found.pointsHistory) {
           found.pointsHistory = []
@@ -128,10 +148,32 @@ function calculateTeamPoints (data) {
 }
 
 function addTags () {
-  // barResults.forEach(result => {
-  //   results.tags = []
-  //   results.events
-  // })
+  barResults.forEach(result => {
+    result.tags = []
+
+    addTag(result, r => r.position === '1', 'is-warning', '1st')
+    addTag(result, r => r.position === '2', 'is-warning', '2nd')
+    addTag(result, r => r.position === '3', 'is-warning', '3rd')
+    addTag(result, r => Number(r.position) <= 5, 'is-warning', 'Top 5')
+    addTag(result, r => Number(r.position) <= 10, 'is-warning', 'Top 10')
+
+    addTag(result, r => r.barPosition === 1, 'is-light', '1st BAR')
+    addTag(result, r => r.barPosition === 2, 'is-light', '2nd BAR')
+    addTag(result, r => r.barPosition === 3, 'is-light', '3rd BAR')
+    addTag(result, r => r.barPosition <= 5, 'is-light', 'Top 5 BAR')
+    addTag(result, r => r.barPosition <= 10, 'is-light', 'Top 10 BAR')
+
+    addTag(result, r => r.position === 'DNS', 'is-black', 'DNS')
+    addTag(result, r => r.position === 'DNF', 'is-dark', 'DNF')
+
+  })
+}
+
+function addTag (result, filter, cssclass, text) {
+  const count = result.races.filter(filter).length
+  if (count > 0) {
+    result.tags.push({cssclass: `tag ${cssclass}`, text: `${count} x ${text}`})
+  }
 }
 
 function outputTeamResults (results) {
