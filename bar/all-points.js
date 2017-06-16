@@ -93,9 +93,10 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           found.pointsHistory = []
         }
         found.pointsHistory.push({
-          eventId: event.id,
+          raceId: event.id,
           date: event.date,
           name: event.name,
+          raceCategory: event.length,
           bar: rider.bar,
           vbar: rider.vbar,
           lbar: rider.lbar,
