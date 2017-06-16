@@ -63,22 +63,11 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       points.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
 
-        // Events code being replaced with race code
-        if (!found[event.length]) {
-          found[event.length] = []
-        }
-        if (!found.events) {
-          found.events = {}
-        }
-        found.events[event.id] = rider
-        found[event.length].push({eventId: event.id, bar: rider.bar})
-        // -----------------------------------------------------------------
-
         if (!found.races) {
           found.races = []
         }
         found.races.push({
-          raceId: event.id,
+          eventId: event.id,
           raceCategory: event.length,
           position: rider.position,
           time: rider.time,
@@ -93,7 +82,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           found.pointsHistory = []
         }
         found.pointsHistory.push({
-          raceId: event.id,
+          eventId: event.id,
           date: event.date,
           name: event.name,
           raceCategory: event.length,
@@ -131,7 +120,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       result.position = position++
       let data = `${result.position}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
       events.forEach(event => {
-        let barPoints = result.events[event.id] ? result.events[event.id].bar : 0
+        let riderEvent = result.races.find(x => x.eventId === event.id)
+        let barPoints = riderEvent ? riderEvent.bar : 0
         data = data + `, ${barPoints}`
       })
       console.log(data)
@@ -208,21 +198,19 @@ function totals (rider) {
   let medium = 0
   let long = 0
 
-  const distances = ['short', 'medium', 'long']
-  distances.forEach(distance => {
-    if (!rider[distance]) {
-      rider[distance] = []
-    }
-  })
+  const shortRaces = rider.races.filter(x => x.raceCategory === 'short').sort((a, b) => b.bar - a.bar)
+  if (shortRaces.length > 0) {
+    short = shortRaces.slice(0, 2).reduce((total, result) => total + result.bar, 0)
+  }
 
-  if (rider.short.length > 0) {
-    short = rider.short.sort((a, b) => b.bar - a.bar).slice(0, 2).reduce((total, result) => total + result.bar, 0)
+  const mediumRaces = rider.races.filter(x => x.raceCategory === 'medium').sort((a, b) => b.bar - a.bar)
+  if (mediumRaces.length > 0) {
+    medium = mediumRaces.slice(0, 3).reduce((total, result) => total + result.bar, 0)
   }
-  if (rider.medium.length > 0) {
-    medium = rider.medium.sort((a, b) => b.bar - a.bar).slice(0, 3).reduce((total, result) => total + result.bar, 0)
-  }
-  if (rider.long.length > 0) {
-    long = rider.long.sort((a, b) => b.bar - a.bar).slice(0, 1).reduce((total, result) => total + result.bar, 0)
+
+  const longRaces = rider.races.filter(x => x.raceCategory === 'long').sort((a, b) => b.bar - a.bar)
+  if (longRaces.length > 0) {
+    long = longRaces.slice(0, 1).reduce((total, result) => total + result.bar, 0)
   }
   return {
     short,
