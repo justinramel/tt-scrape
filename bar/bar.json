@@ -328,18 +328,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 10 BAR"
       },
       {
@@ -723,26 +715,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       }
     ]
@@ -1122,10 +1102,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -1741,34 +1717,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "4 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "5 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 1st BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 10 BAR"
       }
     ]
@@ -2124,7 +2084,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -2504,26 +2464,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "4 x Top 10 BAR"
       },
       {
@@ -2841,18 +2789,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -4559,10 +4499,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -5837,34 +5773,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "4 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "5 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 10 BAR"
       },
       {
@@ -6517,30 +6437,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "6 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "6 x Top 10 BAR"
       },
       {
@@ -7229,18 +7137,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -7841,10 +7741,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -8511,10 +8407,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -8802,10 +8694,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -9791,7 +9679,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -12248,34 +12136,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "3 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "5 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "5 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "3 x 1st BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 10 BAR"
       },
       {
@@ -12547,34 +12419,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x 1st BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -12808,34 +12664,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x 1st BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       }
     ]
@@ -13322,34 +13162,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "4 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "5 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "5 x Top 10 BAR"
       }
     ]
@@ -14193,18 +14017,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -14450,22 +14266,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       }
     ]
@@ -14647,26 +14455,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -14908,14 +14704,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       }
     ]
@@ -15168,10 +14960,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -15405,10 +15193,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "3 x Top 10 BAR"
       }
     ]
@@ -15730,18 +15514,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -16256,10 +16032,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 10 BAR"
       },
       {
@@ -16516,14 +16288,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -16765,10 +16533,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -17294,10 +17058,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -18095,7 +17855,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -18892,11 +18652,11 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -19624,10 +19384,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -20401,10 +20157,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -21593,7 +21345,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       },
       {
@@ -24494,26 +24246,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "3 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "3 x 1st BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -25023,26 +24763,18 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -25201,26 +24933,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       }
     ]
@@ -25485,18 +25205,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 3rd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "3 x Top 10 BAR"
       },
       {
@@ -25717,18 +25433,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "4 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "4 x Top 10 BAR"
       }
     ]
@@ -26016,10 +25724,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "2 x Top 10 BAR"
       },
       {
@@ -26866,7 +26570,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -27782,7 +27486,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -29389,10 +29093,6 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -35598,26 +35298,14 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x 2nd BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -35918,18 +35606,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -36171,14 +35851,10 @@
     "tags": [
       {
         "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
-        "cssclass": "tag is-light",
         "text": "1 x Top 5 BAR"
       },
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "2 x Top 10 BAR"
       },
       {
@@ -36707,7 +36383,7 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-light",
+        "cssclass": "tag is-warning",
         "text": "1 x Top 10 BAR"
       }
     ]
@@ -51702,20 +51378,7 @@
         "position": 246
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 247,
@@ -52034,16 +51697,7 @@
         "position": 248
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 249,
@@ -52161,16 +51815,7 @@
         "position": 249
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 250,
@@ -52311,12 +51956,7 @@
         "position": 250
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 251,
@@ -52434,12 +52074,7 @@
         "position": 251
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 252,
@@ -52557,12 +52192,7 @@
         "position": 252
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 253,
@@ -56750,20 +56380,7 @@
         "position": 277
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 278,
@@ -57100,18 +56717,6 @@
       }
     ],
     "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
       {
         "cssclass": "tag is-black",
         "text": "1 x DNS"
@@ -58994,12 +58599,7 @@
         "position": 290
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 291,
@@ -60560,24 +60160,7 @@
         "position": 301
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 1st"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 2nd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 302,
@@ -63070,18 +62653,6 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      },
-      {
         "cssclass": "tag is-black",
         "text": "1 x DNS"
       }
@@ -63202,20 +62773,7 @@
         "position": 320
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 321,
@@ -63332,12 +62890,7 @@
         "position": 321
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 322,
@@ -63653,16 +63206,7 @@
         "position": 323
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 324,
@@ -64902,10 +64446,6 @@
     ],
     "tags": [
       {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      },
-      {
         "cssclass": "tag is-black",
         "text": "2 x DNS"
       }
@@ -65085,16 +64625,7 @@
         "position": 331
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "2 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 332,
@@ -66600,12 +66131,7 @@
         "position": 340
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 341,
@@ -69128,20 +68654,7 @@
         "position": 357
       }
     ],
-    "tags": [
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x 3rd"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "1 x Top 5"
-      },
-      {
-        "cssclass": "tag is-warning",
-        "text": "3 x Top 10"
-      }
-    ]
+    "tags": []
   },
   {
     "position": 358,
