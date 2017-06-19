@@ -116,6 +116,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     })
     console.log(header)
     let position = 1
+    const riderClubInBar = rider => clubs.includes(rider.club)
+    barResults = barResults.filter(riderClubInBar)
     barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
       result.position = position++
       let data = `${result.position}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
