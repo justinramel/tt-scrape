@@ -42,7 +42,8 @@ const events = [
   { id: '15075', name: 'M102B', date: '20 May 2017', length: 'short' },
   { id: '15161', name: 'M107', date: '28 May 2017', length: 'short' },
   { id: '15202', name: 'M24.8', date: '04 June 2017', length: 'medium' },
-  { id: '15232', name: 'M13', date: '10 June 2017', length: 'short' }
+  { id: '15232', name: 'M13', date: '10 June 2017', length: 'short' },
+  { id: '15334', name: 'M2510', date: '18 June 2017', length: 'medium'}
 ]
 
 let barResults = []
