@@ -177,6 +177,9 @@ function writeToJSON () {
   fs.writeFile('../../tt-bar/src/results.json', JSON.stringify(raceResults, null, 2), function (err) {
     console.log(err)
   })
+  fs.writeFile('../../tt-bar/src/clubs.json', JSON.stringify(clubs, null, 2), function (err) {
+    console.log(err)
+  })
 }
 
 function removeAttributes () {
