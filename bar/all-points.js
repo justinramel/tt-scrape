@@ -43,7 +43,8 @@ const events = [
   { id: '15161', name: 'M107', date: '28 May 2017', length: 'short' },
   { id: '15202', name: 'M24.8', date: '04 June 2017', length: 'medium' },
   { id: '15232', name: 'M13', date: '10 June 2017', length: 'short' },
-  { id: '15334', name: 'M2510', date: '18 June 2017', length: 'medium'}
+  { id: '15260', name: 'M2511', date: '11 June 2017', length: 'medium' },
+  { id: '15334', name: 'M2510', date: '18 June 2017', length: 'medium' }
 ]
 
 let barResults = []
@@ -131,16 +132,34 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     })
 
     addTags()
-    var fs = require('fs')
-    fs.writeFile('bar.json', JSON.stringify(barResults, null, 2), function (err) {
-      console.log(err)
-    })
+    writeToJSON()
 
     console.log('', '', '', '', '')
 
     let teamResults = calculateTeamPoints(barResults)
     outputTeamResults(teamResults)
   }))
+
+function writeToJSON () {
+  removeAttributes()
+
+  var fs = require('fs')
+  fs.writeFile('bar.json', JSON.stringify(barResults, null, 2), function (err) {
+    console.log(err)
+  })
+}
+
+function removeAttributes () {
+  barResults.forEach(result => {
+    result.races.forEach(race => {
+      delete race.name
+      delete race.time
+      delete race.speed
+      delete race.raceCategory
+      delete race.barPosition
+    })
+  })
+}
 
 function calculateTeamPoints (data) {
   let results = []
@@ -324,8 +343,12 @@ function groupBy (list, keyGetter) {
   return map
 }
 
+function qualified (race) {
+  return race.position !== 'DNS' && race.position !== 'DNF'
+}
+
 function inBar (rider) {
-  return clubs.includes(rider.club) && rider.time !== ''
+  return clubs.includes(rider.club) && qualified(rider)
 }
 
 function vet (rider) {
