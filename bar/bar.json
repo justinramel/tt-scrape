@@ -5,8 +5,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "1:15:26",
-    "speed": "21.476 Mph",
     "id": "1502",
     "races": [
       {
@@ -209,8 +207,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:50:05",
-    "speed": "25.158 Mph",
     "id": "1033",
     "races": [
       {
@@ -425,8 +421,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Muckle Cycle Club",
-    "time": "0:53:26",
-    "speed": "23.581 Mph",
     "id": "866",
     "races": [
       {
@@ -657,8 +651,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "0:54:47",
-    "speed": "23 Mph",
     "id": "5439",
     "races": [
       {
@@ -897,8 +889,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:54:46",
-    "speed": "23.007 Mph",
     "id": "692",
     "races": [
       {
@@ -1145,8 +1135,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "0:52:42",
-    "speed": "23.909 Mph",
     "id": "3377",
     "races": [
       {
@@ -1369,8 +1357,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Gosforth RC",
-    "time": "0:54:36",
-    "speed": "23.077 Mph",
     "id": "2041",
     "races": [
       {
@@ -1593,8 +1579,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "0:48:29",
-    "speed": "25.988 Mph",
     "id": "317",
     "races": [
       {
@@ -1801,8 +1785,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "1:20:10",
-    "speed": "20.208 Mph",
     "id": "164",
     "races": [
       {
@@ -1997,8 +1979,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:49:04",
-    "speed": "25.679 Mph",
     "id": "6436",
     "races": [
       {
@@ -2199,8 +2179,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "0:49:56",
-    "speed": "25.234 Mph",
     "id": "4367",
     "races": [
       {
@@ -2439,8 +2417,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "1:21:54",
-    "speed": "19.78 Mph",
     "id": "13",
     "races": [
       {
@@ -2643,8 +2619,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Sunderland Clarion",
-    "time": "0:58:16",
-    "speed": "21.625 Mph",
     "id": "1711",
     "races": [
       {
@@ -2883,8 +2857,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:57:05",
-    "speed": "22.073 Mph",
     "id": "5444",
     "races": [
       {
@@ -3107,8 +3079,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "",
-    "speed": "",
     "id": "923",
     "races": [
       {
@@ -3339,8 +3309,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "0:42:22",
-    "speed": "25.492 Mph",
     "id": "1170",
     "races": [
       {
@@ -3545,8 +3513,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Sunderland Clarion",
-    "time": "0:52:32",
-    "speed": "23.985 Mph",
     "id": "647",
     "races": [
       {
@@ -3745,8 +3711,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Gosforth RC",
-    "time": "0:43:50",
-    "speed": "24.639 Mph",
     "id": "446",
     "races": [
       {
@@ -3943,8 +3907,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:53:50",
-    "speed": "23.406 Mph",
     "id": "15894",
     "races": [
       {
@@ -4159,8 +4121,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:59:51",
-    "speed": "21.053 Mph",
     "id": "2980",
     "races": [
       {
@@ -4391,8 +4351,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cramlington CC",
-    "time": "0:54:14",
-    "speed": "23.233 Mph",
     "id": "1964",
     "races": [
       {
@@ -4615,8 +4573,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:38:31",
-    "speed": "28.04 Mph",
     "id": "3625",
     "races": [
       {
@@ -4797,8 +4753,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "0:20:57",
-    "speed": "28.64 Mph",
     "id": "16809",
     "races": [
       {
@@ -4955,8 +4909,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cestria Cycles Racing Team",
-    "time": "0:48:26",
-    "speed": "26.015 Mph",
     "id": "8401",
     "races": [
       {
@@ -5171,8 +5123,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "0:56:22",
-    "speed": "22.354 Mph",
     "id": "5169",
     "races": [
       {
@@ -5395,8 +5345,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "1:00:32",
-    "speed": "20.815 Mph",
     "id": "5296",
     "races": [
       {
@@ -5627,8 +5575,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:40:23",
-    "speed": "26.744 Mph",
     "id": "1818",
     "races": [
       {
@@ -5817,8 +5763,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "0:50:47",
-    "speed": "24.811 Mph",
     "id": "6124",
     "races": [
       {
@@ -6033,8 +5977,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:40:52",
-    "speed": "26.427 Mph",
     "id": "8323",
     "races": [
       {
@@ -6247,8 +6189,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "0:46:28",
-    "speed": "23.242 Mph",
     "id": "293",
     "races": [
       {
@@ -6453,8 +6393,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Muckle Cycle Club",
-    "time": "0:41:11",
-    "speed": "26.224 Mph",
     "id": "9684",
     "races": [
       {
@@ -6651,8 +6589,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Allen Valley Velo",
-    "time": "0:51:47",
-    "speed": "24.332 Mph",
     "id": "3037",
     "races": [
       {
@@ -6859,8 +6795,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cramlington CC",
-    "time": "0:43:04",
-    "speed": "25.077 Mph",
     "id": "6744",
     "races": [
       {
@@ -7049,8 +6983,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Houghton CC",
-    "time": "0:52:17",
-    "speed": "24.099 Mph",
     "id": "15515",
     "races": [
       {
@@ -7249,8 +7181,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Alnwick Cycling Club",
-    "time": "0:45:50",
-    "speed": "23.564 Mph",
     "id": "1078",
     "races": [
       {
@@ -7455,8 +7385,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "0:56:34",
-    "speed": "22.275 Mph",
     "id": "415",
     "races": [
       {
@@ -7687,8 +7615,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:23:16",
-    "speed": "25.788 Mph",
     "id": "6029",
     "races": [
       {
@@ -7845,8 +7771,6 @@
     "sex": "Male",
     "category": "Juvenile",
     "club": "Gosforth RC",
-    "time": "0:40:54",
-    "speed": "26.406 Mph",
     "id": "1698",
     "races": [
       {
@@ -8027,8 +7951,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:54:01",
-    "speed": "23.326 Mph",
     "id": "177",
     "races": [
       {
@@ -8243,8 +8165,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "",
-    "speed": "",
     "id": "7993",
     "races": [
       {
@@ -8431,8 +8351,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "1:22:57",
-    "speed": "19.53 Mph",
     "id": "686",
     "races": [
       {
@@ -8651,8 +8569,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "1:25:43",
-    "speed": "18.899 Mph",
     "id": "817",
     "races": [
       {
@@ -8823,8 +8739,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "0:52:28",
-    "speed": "24.015 Mph",
     "id": "6648",
     "races": [
       {
@@ -9015,8 +8929,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "1:03:49",
-    "speed": "19.744 Mph",
     "id": "7743",
     "races": [
       {
@@ -9239,8 +9151,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:42:50",
-    "speed": "25.214 Mph",
     "id": "6872",
     "races": [
       {
@@ -9421,8 +9331,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:51:50",
-    "speed": "20.836 Mph",
     "id": "1428",
     "races": [
       {
@@ -9627,8 +9535,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Sunderland Clarion",
-    "time": "0:44:15",
-    "speed": "24.407 Mph",
     "id": "6444",
     "races": [
       {
@@ -9817,8 +9723,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "",
-    "speed": "",
     "id": "5796",
     "races": [
       {
@@ -10041,8 +9945,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "1:13:52",
-    "speed": "17.058 Mph",
     "id": "4497",
     "races": [
       {
@@ -10265,8 +10167,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "",
-    "speed": "",
     "id": "5305",
     "races": [
       {
@@ -10469,8 +10369,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "1:27:43",
-    "speed": "18.468 Mph",
     "id": "7785",
     "races": [
       {
@@ -10641,8 +10539,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "",
-    "speed": "",
     "id": "4175",
     "races": [
       {
@@ -10857,8 +10753,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "GS Metro",
-    "time": "1:08:17",
-    "speed": "23.725 Mph",
     "id": "4354",
     "races": [
       {
@@ -11037,8 +10931,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:56:03",
-    "speed": "22.48 Mph",
     "id": "1884",
     "races": [
       {
@@ -11237,8 +11129,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "0:43:48",
-    "speed": "24.657 Mph",
     "id": "456",
     "races": [
       {
@@ -11419,8 +11309,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:49:24",
-    "speed": "21.862 Mph",
     "id": "3838",
     "races": [
       {
@@ -11617,8 +11505,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:39:46",
-    "speed": "27.158 Mph",
     "id": "3738",
     "races": [
       {
@@ -11815,8 +11701,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Sunderland Clarion",
-    "time": "0:50:23",
-    "speed": "25.008 Mph",
     "id": "683",
     "races": [
       {
@@ -11999,8 +11883,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "GS Metro",
-    "time": "0:22:16",
-    "speed": "26.946 Mph",
     "id": "6199",
     "races": [
       {
@@ -12133,8 +12015,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:49:05",
-    "speed": "25.671 Mph",
     "id": "554",
     "races": [
       {
@@ -12325,8 +12205,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:49:27",
-    "speed": "21.84 Mph",
     "id": "3214",
     "races": [
       {
@@ -12531,8 +12409,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Ryton Tri Club",
-    "time": "0:49:39",
-    "speed": "25.378 Mph",
     "id": "255",
     "races": [
       {
@@ -12731,8 +12607,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:40:32",
-    "speed": "26.645 Mph",
     "id": "3844",
     "races": [
       {
@@ -12905,8 +12779,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:45:40",
-    "speed": "23.65 Mph",
     "id": "15799",
     "races": [
       {
@@ -13095,8 +12967,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "1:00:11",
-    "speed": "20.936 Mph",
     "id": "868",
     "races": [
       {
@@ -13295,8 +13165,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "1:19:44",
-    "speed": "20.318 Mph",
     "id": "480",
     "races": [
       {
@@ -13467,8 +13335,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:22:28",
-    "speed": "26.706 Mph",
     "id": "3693",
     "races": [
       {
@@ -13609,8 +13475,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "GS Metro",
-    "time": "0:53:09",
-    "speed": "23.706 Mph",
     "id": "11877",
     "races": [
       {
@@ -13793,8 +13657,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "1:25:51",
-    "speed": "18.87 Mph",
     "id": "9079",
     "races": [
       {
@@ -13965,8 +13827,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "0:51:17",
-    "speed": "24.569 Mph",
     "id": "7196",
     "races": [
       {
@@ -14149,8 +14009,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "Sunderland Clarion",
-    "time": "0:52:35",
-    "speed": "23.962 Mph",
     "id": "9981",
     "races": [
       {
@@ -14333,8 +14191,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:41:55",
-    "speed": "25.765 Mph",
     "id": "3088",
     "races": [
       {
@@ -14507,8 +14363,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:57:07",
-    "speed": "22.06 Mph",
     "id": "1636",
     "races": [
       {
@@ -14693,8 +14547,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cestria Cycles Racing Team",
-    "time": "1:16:44",
-    "speed": "21.112 Mph",
     "id": "3926",
     "races": [
       {
@@ -14865,8 +14717,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "2:39:04",
-    "speed": "17.728 Mph",
     "id": "6666",
     "races": [
       {
@@ -14995,8 +14845,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Allen Valley Velo",
-    "time": "0:55:54",
-    "speed": "22.54 Mph",
     "id": "708",
     "races": [
       {
@@ -15187,8 +15035,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Gosforth RC",
-    "time": "0:58:33",
-    "speed": "21.52 Mph",
     "id": "96",
     "races": [
       {
@@ -15349,8 +15195,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "1:00:45",
-    "speed": "20.741 Mph",
     "id": "15609",
     "races": [
       {
@@ -15549,8 +15393,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "Gosforth RC",
-    "time": "0:56:00",
-    "speed": "22.5 Mph",
     "id": "11437",
     "races": [
       {
@@ -15741,8 +15583,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Sunderland Clarion",
-    "time": "0:23:43",
-    "speed": "25.299 Mph",
     "id": "9296",
     "races": [
       {
@@ -15901,8 +15741,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Breeze Bikes RT",
-    "time": "0:56:11",
-    "speed": "22.427 Mph",
     "id": "775",
     "races": [
       {
@@ -16117,8 +15955,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:55:15",
-    "speed": "22.805 Mph",
     "id": "827",
     "races": [
       {
@@ -16341,8 +16177,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Houghton CC",
-    "time": "1:28:07",
-    "speed": "18.385 Mph",
     "id": "8256",
     "races": [
       {
@@ -16513,8 +16347,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "0:24:05",
-    "speed": "24.913 Mph",
     "id": "2727",
     "races": [
       {
@@ -16655,8 +16487,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "1:28:02",
-    "speed": "14.313 Mph",
     "id": "2927",
     "races": [
       {
@@ -16855,8 +16685,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "1:09:22",
-    "speed": "18.164 Mph",
     "id": "1710",
     "races": [
       {
@@ -17055,8 +16883,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Wansbeck CC",
-    "time": "1:09:20",
-    "speed": "18.173 Mph",
     "id": "5655",
     "races": [
       {
@@ -17247,8 +17073,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "Muckle Cycle Club",
-    "time": "0:54:58",
-    "speed": "22.923 Mph",
     "id": "14110",
     "races": [
       {
@@ -17447,8 +17271,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:59:47",
-    "speed": "21.076 Mph",
     "id": "9402",
     "races": [
       {
@@ -17631,8 +17453,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Breeze Bikes RT",
-    "time": "0:59:30",
-    "speed": "21.176 Mph",
     "id": "1171",
     "races": [
       {
@@ -17839,8 +17659,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "0:46:58",
-    "speed": "22.995 Mph",
     "id": "2383",
     "races": [
       {
@@ -18021,8 +17839,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:45:28",
-    "speed": "27.713 Mph",
     "id": "65",
     "races": [
       {
@@ -18221,8 +18037,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "1:08:14",
-    "speed": "18.466 Mph",
     "id": "9329",
     "races": [
       {
@@ -18421,8 +18235,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Adept Precision RT",
-    "time": "0:47:28",
-    "speed": "26.545 Mph",
     "id": "2389",
     "races": [
       {
@@ -18597,8 +18409,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "Manilla Cycling",
-    "time": "0:21:36",
-    "speed": "27.778 Mph",
     "id": "102",
     "races": [
       {
@@ -18723,8 +18533,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "0:22:36",
-    "speed": "26.549 Mph",
     "id": "705",
     "races": [
       {
@@ -18875,8 +18683,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "0:49:42",
-    "speed": "25.352 Mph",
     "id": "55",
     "races": [
       {
@@ -19075,8 +18881,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "0:25:51",
-    "speed": "23.211 Mph",
     "id": "2184",
     "races": [
       {
@@ -19209,8 +19013,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Ryton Tri Club",
-    "time": "0:23:57",
-    "speed": "25.052 Mph",
     "id": "5896",
     "races": [
       {
@@ -19321,8 +19123,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "0:51:40",
-    "speed": "24.387 Mph",
     "id": "4233",
     "races": [
       {
@@ -19497,8 +19297,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "1:17:39",
-    "speed": "20.863 Mph",
     "id": "4952",
     "races": [
       {
@@ -19653,8 +19451,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Wansbeck CC",
-    "time": "1:01:08",
-    "speed": "20.611 Mph",
     "id": "5885",
     "races": [
       {
@@ -19837,8 +19633,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "0:23:00",
-    "speed": "26.087 Mph",
     "id": "284",
     "races": [
       {
@@ -19979,8 +19773,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Wansbeck CC",
-    "time": "1:04:26",
-    "speed": "19.555 Mph",
     "id": "4314",
     "races": [
       {
@@ -20163,8 +19955,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:48:58",
-    "speed": "22.056 Mph",
     "id": "15927",
     "races": [
       {
@@ -20345,8 +20135,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Sunderland Clarion",
-    "time": "0:54:03",
-    "speed": "23.312 Mph",
     "id": "5746",
     "races": [
       {
@@ -20521,8 +20309,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "1:21:12",
-    "speed": "19.951 Mph",
     "id": "6804",
     "races": [
       {
@@ -20685,8 +20471,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Houghton CC",
-    "time": "",
-    "speed": "",
     "id": "8785",
     "races": [
       {
@@ -20873,8 +20657,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "0:54:23",
-    "speed": "23.169 Mph",
     "id": "9761",
     "races": [
       {
@@ -21065,8 +20847,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "2:01:14",
-    "speed": "19.797 Mph",
     "id": "5313",
     "races": [
       {
@@ -21181,8 +20961,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:23:22",
-    "speed": "25.678 Mph",
     "id": "5041",
     "races": [
       {
@@ -21307,8 +21085,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "0:24:25",
-    "speed": "24.573 Mph",
     "id": "2311",
     "races": [
       {
@@ -21467,8 +21243,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "1:09:46",
-    "speed": "18.06 Mph",
     "id": "2846",
     "races": [
       {
@@ -21651,8 +21425,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Northumbria Police C.C.",
-    "time": "0:25:38",
-    "speed": "23.407 Mph",
     "id": "16901",
     "races": [
       {
@@ -21793,8 +21565,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "2:21:46",
-    "speed": "19.892 Mph",
     "id": "17976",
     "races": [
       {
@@ -21899,8 +21669,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "1:27:43",
-    "speed": "18.468 Mph",
     "id": "16225",
     "races": [
       {
@@ -22055,8 +21823,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "",
-    "speed": "",
     "id": "508",
     "races": [
       {
@@ -22235,8 +22001,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Gosforth RC",
-    "time": "0:54:40",
-    "speed": "23.049 Mph",
     "id": "8379",
     "races": [
       {
@@ -22411,8 +22175,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "0:30:06",
-    "speed": "19.934 Mph",
     "id": "9698",
     "races": [
       {
@@ -22547,8 +22309,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "1:26:32",
-    "speed": "18.721 Mph",
     "id": "6577",
     "races": [
       {
@@ -22703,8 +22463,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "1:28:25",
-    "speed": "18.322 Mph",
     "id": "3495",
     "races": [
       {
@@ -22899,8 +22657,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cramlington CC",
-    "time": "0:43:37",
-    "speed": "24.761 Mph",
     "id": "6287",
     "races": [
       {
@@ -23081,8 +22837,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:28:37",
-    "speed": "20.967 Mph",
     "id": "964",
     "races": [
       {
@@ -23231,8 +22985,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria Cycles Racing Team",
-    "time": "1:27:49",
-    "speed": "18.447 Mph",
     "id": "1770",
     "races": [
       {
@@ -23395,8 +23147,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:31:56",
-    "speed": "18.601 Mph",
     "id": "16387",
     "races": [
       {
@@ -23481,8 +23231,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "0:57:26",
-    "speed": "21.938 Mph",
     "id": "1890",
     "races": [
       {
@@ -23657,8 +23405,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "1:30:14",
-    "speed": "17.953 Mph",
     "id": "1717",
     "races": [
       {
@@ -23813,8 +23559,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:36:34",
-    "speed": "21.331 Mph",
     "id": "17702",
     "races": [
       {
@@ -23879,8 +23623,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Allen Valley Velo",
-    "time": "0:59:20",
-    "speed": "21.236 Mph",
     "id": "7758",
     "races": [
       {
@@ -24063,8 +23805,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "0:33:49",
-    "speed": "17.565 Mph",
     "id": "92",
     "races": [
       {
@@ -24149,8 +23889,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:29:33",
-    "speed": "20.305 Mph",
     "id": "6412",
     "races": [
       {
@@ -24293,8 +24031,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Wansbeck CC",
-    "time": "1:00:54",
-    "speed": "20.69 Mph",
     "id": "16197",
     "races": [
       {
@@ -24439,8 +24175,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "1:26:34",
-    "speed": "18.714 Mph",
     "id": "16429",
     "races": [
       {
@@ -24595,8 +24329,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:23:53",
-    "speed": "25.121 Mph",
     "id": "925",
     "races": [
       {
@@ -24691,8 +24423,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "1:13:24",
-    "speed": "17.166 Mph",
     "id": "4627",
     "races": [
       {
@@ -24837,8 +24567,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:50:41",
-    "speed": "21.309 Mph",
     "id": "2123",
     "races": [
       {
@@ -25003,8 +24731,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:25:16",
-    "speed": "23.746 Mph",
     "id": "18199",
     "races": [
       {
@@ -25107,8 +24833,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "",
-    "speed": "",
     "id": "2140",
     "races": [
       {
@@ -25315,8 +25039,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:39:24",
-    "speed": "27.411 Mph",
     "id": "2373",
     "races": [
       {
@@ -25473,8 +25195,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "1:41:28",
-    "speed": "15.966 Mph",
     "id": "3247",
     "races": [
       {
@@ -25629,8 +25349,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "2:03:40",
-    "speed": "22.803 Mph",
     "id": "9425",
     "races": [
       {
@@ -25727,8 +25445,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "",
-    "speed": "",
     "id": "4590",
     "races": [
       {
@@ -25911,8 +25627,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "1:18:38",
-    "speed": "16.024 Mph",
     "id": "1094",
     "races": [
       {
@@ -26087,8 +25801,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "1:46:38",
-    "speed": "15.192 Mph",
     "id": "16380",
     "races": [
       {
@@ -26243,8 +25955,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Houghton CC",
-    "time": "0:24:46",
-    "speed": "24.226 Mph",
     "id": "6289",
     "races": [
       {
@@ -26371,8 +26081,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "0:41:13",
-    "speed": "26.203 Mph",
     "id": "444",
     "races": [
       {
@@ -26529,8 +26237,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "0:25:17",
-    "speed": "23.494 Mph",
     "id": "17838",
     "races": [
       {
@@ -26607,8 +26313,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "South Shields Velo Cycling Club",
-    "time": "1:18:35",
-    "speed": "20.615 Mph",
     "id": "11274",
     "races": [
       {
@@ -26755,8 +26459,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "2:03:33",
-    "speed": "19.425 Mph",
     "id": "3648",
     "races": [
       {
@@ -26871,8 +26573,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:26:21",
-    "speed": "22.77 Mph",
     "id": "16086",
     "races": [
       {
@@ -26999,8 +26699,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:51:46",
-    "speed": "20.863 Mph",
     "id": "690",
     "races": [
       {
@@ -27173,8 +26871,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "2:02:35",
-    "speed": "19.579 Mph",
     "id": "858",
     "races": [
       {
@@ -27289,8 +26985,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "2:03:24",
-    "speed": "19.449 Mph",
     "id": "8835",
     "races": [
       {
@@ -27397,8 +27091,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:27:07",
-    "speed": "22.127 Mph",
     "id": "8831",
     "races": [
       {
@@ -27525,8 +27217,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:57:18",
-    "speed": "26.178 Mph",
     "id": "187",
     "races": [
       {
@@ -27563,8 +27253,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:27:34",
-    "speed": "21.765 Mph",
     "id": "6929",
     "races": [
       {
@@ -27691,8 +27379,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:34:56",
-    "speed": "22.328 Mph",
     "id": "8791",
     "races": [
       {
@@ -27749,8 +27435,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:34:59",
-    "speed": "22.296 Mph",
     "id": "18663",
     "races": [
       {
@@ -27807,8 +27491,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "South Shields Velo Cycling Club",
-    "time": "0:26:25",
-    "speed": "22.486 Mph",
     "id": "18015",
     "races": [
       {
@@ -27885,8 +27567,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "0:57:31",
-    "speed": "26.079 Mph",
     "id": "6215",
     "races": [
       {
@@ -27923,8 +27603,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "0:28:12",
-    "speed": "21.277 Mph",
     "id": "6914",
     "races": [
       {
@@ -28051,8 +27729,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Breeze Bikes RT",
-    "time": "1:23:36",
-    "speed": "19.378 Mph",
     "id": "2845",
     "races": [
       {
@@ -28215,8 +27891,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:36:45",
-    "speed": "21.224 Mph",
     "id": "16388",
     "races": [
       {
@@ -28273,8 +27947,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Ryton Tri Club",
-    "time": "2:06:45",
-    "speed": "18.935 Mph",
     "id": "15251",
     "races": [
       {
@@ -28389,8 +28061,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Sunderland Clarion",
-    "time": "0:30:20",
-    "speed": "19.78 Mph",
     "id": "5494",
     "races": [
       {
@@ -28515,8 +28185,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "2:09:16",
-    "speed": "18.566 Mph",
     "id": "3218",
     "races": [
       {
@@ -28631,8 +28299,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:55:10",
-    "speed": "22.84 Mph",
     "id": "5528",
     "races": [
       {
@@ -28769,8 +28435,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:37:14",
-    "speed": "20.949 Mph",
     "id": "17179",
     "races": [
       {
@@ -28827,8 +28491,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:27:00",
-    "speed": "22 Mph",
     "id": "16184",
     "races": [
       {
@@ -28905,8 +28567,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "",
-    "speed": "",
     "id": "5378",
     "races": [
       {
@@ -29021,8 +28681,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "Barnesbury CC",
-    "time": "0:55:42",
-    "speed": "22.621 Mph",
     "id": "888",
     "races": [
       {
@@ -29159,8 +28817,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Northumbria Police C.C.",
-    "time": "",
-    "speed": "",
     "id": "17221",
     "races": [
       {
@@ -29275,8 +28931,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "0:39:50",
-    "speed": "19.582 Mph",
     "id": "18717",
     "races": [
       {
@@ -29333,8 +28987,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Northumbria Police C.C.",
-    "time": "0:59:49",
-    "speed": "25.077 Mph",
     "id": "16233",
     "races": [
       {
@@ -29371,8 +29023,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "2:12:10",
-    "speed": "18.159 Mph",
     "id": "7068",
     "races": [
       {
@@ -29479,8 +29129,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Adept Precision RT",
-    "time": "0:55:12",
-    "speed": "22.826 Mph",
     "id": "2955",
     "races": [
       {
@@ -29647,8 +29295,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "",
-    "speed": "",
     "id": "5084",
     "races": [
       {
@@ -29789,8 +29435,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:39:56",
-    "speed": "19.533 Mph",
     "id": "9595",
     "races": [
       {
@@ -29847,8 +29491,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "South Shields Velo Cycling Club",
-    "time": "1:27:41",
-    "speed": "18.475 Mph",
     "id": "11089",
     "races": [
       {
@@ -29995,8 +29637,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "Cestria C.C.",
-    "time": "2:12:43",
-    "speed": "18.084 Mph",
     "id": "6389",
     "races": [
       {
@@ -30111,8 +29751,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Cestria C.C.",
-    "time": "0:55:47",
-    "speed": "22.587 Mph",
     "id": "471",
     "races": [
       {
@@ -30279,8 +29917,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:41:24",
-    "speed": "18.841 Mph",
     "id": "9973",
     "races": [
       {
@@ -30337,8 +29973,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:44:50",
-    "speed": "24.089 Mph",
     "id": "80",
     "races": [
       {
@@ -30495,8 +30129,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:28:00",
-    "speed": "19.054 Mph",
     "id": "2512",
     "races": [
       {
@@ -30593,8 +30225,6 @@
     "sex": "Female",
     "category": "Juvenile",
     "club": "North Tyneside Riders CC",
-    "time": "0:49:10",
-    "speed": "15.864 Mph",
     "id": "16536",
     "races": [
       {
@@ -30651,8 +30281,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:28:28",
-    "speed": "18.994 Mph",
     "id": "6348",
     "races": [
       {
@@ -30749,8 +30377,6 @@
     "sex": "Male",
     "category": "Juvenile",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:29:37",
-    "speed": "18.848 Mph",
     "id": "7628",
     "races": [
       {
@@ -30847,8 +30473,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "1:29:47",
-    "speed": "18.043 Mph",
     "id": "16550",
     "races": [
       {
@@ -30995,8 +30619,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Northumbria Police C.C.",
-    "time": "2:16:26",
-    "speed": "17.591 Mph",
     "id": "17551",
     "races": [
       {
@@ -31103,8 +30725,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "2:17:59",
-    "speed": "17.393 Mph",
     "id": "6100",
     "races": [
       {
@@ -31211,8 +30831,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:30:11",
-    "speed": "18.777 Mph",
     "id": "15416",
     "races": [
       {
@@ -31309,8 +30927,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Ryton Tri Club",
-    "time": "2:31:02",
-    "speed": "18.671 Mph",
     "id": "4720",
     "races": [
       {
@@ -31407,8 +31023,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "1:31:04",
-    "speed": "17.789 Mph",
     "id": "16334",
     "races": [
       {
@@ -31563,8 +31177,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "0:59:02",
-    "speed": "21.344 Mph",
     "id": "3451",
     "races": [
       {
@@ -31701,8 +31313,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Muckle Cycle Club",
-    "time": "",
-    "speed": "",
     "id": "3585",
     "races": [
       {
@@ -31877,8 +31487,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "South Shields Velo Cycling Club",
-    "time": "2:19:00",
-    "speed": "17.266 Mph",
     "id": "17859",
     "races": [
       {
@@ -31985,8 +31593,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "0:29:03",
-    "speed": "20.447 Mph",
     "id": "231",
     "races": [
       {
@@ -32063,8 +31669,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Derwentside CC",
-    "time": "2:20:18",
-    "speed": "17.106 Mph",
     "id": "5356",
     "races": [
       {
@@ -32171,8 +31775,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "1:40:52",
-    "speed": "16.061 Mph",
     "id": "1800",
     "races": [
       {
@@ -32319,8 +31921,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "0:28:50",
-    "speed": "20.809 Mph",
     "id": "3953",
     "races": [
       {
@@ -32453,8 +32053,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "2:21:22",
-    "speed": "16.977 Mph",
     "id": "7050",
     "races": [
       {
@@ -32561,8 +32159,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:33:57",
-    "speed": "18.318 Mph",
     "id": "7461",
     "races": [
       {
@@ -32667,8 +32263,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "1:03:46",
-    "speed": "23.523 Mph",
     "id": "18842",
     "races": [
       {
@@ -32705,8 +32299,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "South Shields Velo Cycling Club",
-    "time": "0:29:36",
-    "speed": "20.068 Mph",
     "id": "18377",
     "races": [
       {
@@ -32783,8 +32375,6 @@
     "sex": "Female",
     "category": "Junior",
     "club": "Muckle Cycle Club",
-    "time": "0:29:36",
-    "speed": "20.068 Mph",
     "id": "17854",
     "races": [
       {
@@ -32861,8 +32451,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Cestria C.C.",
-    "time": "1:43:17",
-    "speed": "15.685 Mph",
     "id": "7255",
     "races": [
       {
@@ -33025,8 +32613,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:48:11",
-    "speed": "22.414 Mph",
     "id": "8470",
     "races": [
       {
@@ -33183,8 +32769,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "2:38:03",
-    "speed": "17.842 Mph",
     "id": "17435",
     "races": [
       {
@@ -33281,8 +32865,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "2:26:51",
-    "speed": "16.343 Mph",
     "id": "7680",
     "races": [
       {
@@ -33389,8 +32971,6 @@
     "sex": "Male",
     "category": "Juvenile",
     "club": "South Shields Velo Cycling Club",
-    "time": "0:30:29",
-    "speed": "19.486 Mph",
     "id": "16479",
     "races": [
       {
@@ -33467,8 +33047,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Barnesbury CC",
-    "time": "1:04:19",
-    "speed": "23.322 Mph",
     "id": "594",
     "races": [
       {
@@ -33505,8 +33083,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "2:28:30",
-    "speed": "16.162 Mph",
     "id": "6464",
     "races": [
       {
@@ -33613,8 +33189,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "",
-    "speed": "",
     "id": "18204",
     "races": [
       {
@@ -33717,8 +33291,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:49:00",
-    "speed": "22.041 Mph",
     "id": "6048",
     "races": [
       {
@@ -33875,8 +33447,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Barnesbury CC",
-    "time": "1:05:07",
-    "speed": "23.036 Mph",
     "id": "8339",
     "races": [
       {
@@ -33913,8 +33483,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Sunderland Clarion",
-    "time": "1:01:50",
-    "speed": "20.377 Mph",
     "id": "14728",
     "races": [
       {
@@ -34081,8 +33649,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "",
-    "speed": "",
     "id": "2151",
     "races": [
       {
@@ -34185,8 +33751,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:49:09",
-    "speed": "21.973 Mph",
     "id": "14050",
     "races": [
       {
@@ -34343,8 +33907,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "2:45:50",
-    "speed": "14.472 Mph",
     "id": "7435",
     "races": [
       {
@@ -34451,8 +34013,6 @@
     "sex": "Male",
     "category": "Espoir",
     "club": "Barnesbury CC",
-    "time": "1:05:24",
-    "speed": "22.936 Mph",
     "id": "18828",
     "races": [
       {
@@ -34489,8 +34049,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "0:32:42",
-    "speed": "18.165 Mph",
     "id": "11392",
     "races": [
       {
@@ -34567,8 +34125,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Derwentside CC",
-    "time": "2:49:36",
-    "speed": "14.151 Mph",
     "id": "7110",
     "races": [
       {
@@ -34675,8 +34231,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "1:03:54",
-    "speed": "19.718 Mph",
     "id": "9473",
     "races": [
       {
@@ -34851,8 +34405,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "0:25:19",
-    "speed": "23.7 Mph",
     "id": "14083",
     "races": [
       {
@@ -34969,8 +34521,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:27:36",
-    "speed": "21.739 Mph",
     "id": "6735",
     "races": [
       {
@@ -35065,8 +34615,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "GS Metro",
-    "time": "0:49:54",
-    "speed": "21.643 Mph",
     "id": "3419",
     "races": [
       {
@@ -35239,8 +34787,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "0:25:23",
-    "speed": "23.638 Mph",
     "id": "1366",
     "races": [
       {
@@ -35357,8 +34903,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Alnwick Cycling Club",
-    "time": "1:06:54",
-    "speed": "22.422 Mph",
     "id": "2149",
     "races": [
       {
@@ -35395,8 +34939,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "3:02:04",
-    "speed": "15.489 Mph",
     "id": "18012",
     "races": [
       {
@@ -35493,8 +35035,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Muckle Cycle Club",
-    "time": "0:52:34",
-    "speed": "20.545 Mph",
     "id": "10722",
     "races": [
       {
@@ -35651,8 +35191,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blaydon CC",
-    "time": "0:28:05",
-    "speed": "21.364 Mph",
     "id": "18225",
     "races": [
       {
@@ -35747,8 +35285,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Cramlington CC",
-    "time": "0:28:46",
-    "speed": "20.857 Mph",
     "id": "6730",
     "races": [
       {
@@ -35843,8 +35379,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "0:26:58",
-    "speed": "22.25 Mph",
     "id": "2734",
     "races": [
       {
@@ -35961,8 +35495,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Gosforth RC",
-    "time": "0:27:00",
-    "speed": "22.222 Mph",
     "id": "6675",
     "races": [
       {
@@ -36079,8 +35611,6 @@
     "sex": "Male",
     "category": "Junior",
     "club": "North Tyneside Riders CC",
-    "time": "0:27:17",
-    "speed": "21.991 Mph",
     "id": "9999",
     "races": [
       {
@@ -36197,8 +35727,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "0:28:30",
-    "speed": "21.053 Mph",
     "id": "3439",
     "races": [
       {
@@ -36315,8 +35843,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "0:29:27",
-    "speed": "20.373 Mph",
     "id": "2880",
     "races": [
       {
@@ -36449,8 +35975,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "North Tyneside Riders CC",
-    "time": "0:30:37",
-    "speed": "19.597 Mph",
     "id": "3326",
     "races": [
       {
@@ -36567,8 +36091,6 @@
     "sex": "Female",
     "category": "Juvenile",
     "club": "North Tyneside Riders CC",
-    "time": "0:32:00",
-    "speed": "18.75 Mph",
     "id": "12048",
     "races": [
       {
@@ -36685,8 +36207,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Adept Precision RT",
-    "time": "",
-    "speed": "",
     "id": "849",
     "races": [
       {
@@ -36843,8 +36363,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "",
-    "speed": "",
     "id": "12103",
     "races": [
       {
@@ -36951,8 +36469,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Tyneside Vagabonds CC",
-    "time": "",
-    "speed": "",
     "id": "2513",
     "races": [
       {
@@ -37069,8 +36585,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "",
-    "speed": "",
     "id": "13678",
     "races": [
       {
@@ -37193,8 +36707,6 @@
     "sex": "Female",
     "category": "Senior",
     "club": "Tyneside Vagabonds CC",
-    "time": "",
-    "speed": "",
     "id": "2445",
     "races": [
       {
@@ -37231,8 +36743,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Adept Precision RT",
-    "time": "",
-    "speed": "",
     "id": "5600",
     "races": [
       {
@@ -37329,8 +36839,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "",
-    "speed": "",
     "id": "6306",
     "races": [
       {
@@ -37427,8 +36935,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "North Tyneside Riders CC",
-    "time": "",
-    "speed": "",
     "id": "3234",
     "races": [
       {
@@ -37545,8 +37051,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Blumilk.com",
-    "time": "",
-    "speed": "",
     "id": "4751",
     "races": [
       {
@@ -37661,8 +37165,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Houghton CC",
-    "time": "",
-    "speed": "",
     "id": "10053",
     "races": [
       {
@@ -37789,8 +37291,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "South Shields Velo Cycling Club",
-    "time": "",
-    "speed": "",
     "id": "18338",
     "races": [
       {
@@ -37867,8 +37367,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "Cestria C.C.",
-    "time": "",
-    "speed": "",
     "id": "324",
     "races": [
       {
@@ -38051,8 +37549,6 @@
     "sex": "Male",
     "category": "Senior",
     "club": "Blaydon CC",
-    "time": "",
-    "speed": "",
     "id": "10798",
     "races": [
       {
@@ -38129,8 +37625,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "",
-    "speed": "",
     "id": "18350",
     "races": [
       {
@@ -38207,8 +37701,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "",
-    "speed": "",
     "id": "2999",
     "races": [
       {
@@ -38355,8 +37847,6 @@
     "sex": "Male",
     "category": "Vet",
     "club": "GS Metro",
-    "time": "",
-    "speed": "",
     "id": "1559",
     "races": [
       {
@@ -38489,8 +37979,6 @@
     "sex": "Female",
     "category": "Vet",
     "club": "Allen Valley Velo",
-    "time": "",
-    "speed": "",
     "id": "7431",
     "races": [
       {

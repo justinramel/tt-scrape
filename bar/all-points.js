@@ -48,6 +48,8 @@ const events = [
 ]
 
 let barResults = []
+let allRiders = []
+let raceResults = []
 
 axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/race-results/${event.id}`)))
   .then(axios.spread(function (...responses) {
@@ -55,10 +57,32 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let results = extractResults(response)
       let event = extractEvent(response)
       let riders = extractRiders(results)
+
+      raceResults.push({
+        eventId: event.id,
+        results: riders.map(rider => ({
+          id: rider.id,
+          position: rider.position,
+          name: rider.name,
+          gender: rider.sex,
+          category: rider.category,
+          club: rider.club,
+          time: rider.time,
+          speed: rider.speed
+        }))
+      })
+
       riders.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
         if (!found) {
           barResults.push(rider)
+          allRiders.push({
+            id: rider.id,
+            name: rider.name,
+            sex: rider.sex,
+            category: rider.category,
+            club: rider.club
+          })
         }
       })
       let points = calculatePoints(riders)
@@ -144,7 +168,13 @@ function writeToJSON () {
   removeAttributes()
 
   var fs = require('fs')
-  fs.writeFile('bar.json', JSON.stringify(barResults, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/bar.json', JSON.stringify(barResults, null, 2), function (err) {
+    console.log(err)
+  })
+  fs.writeFile('../../tt-bar/src/riders.json', JSON.stringify(allRiders, null, 2), function (err) {
+    console.log(err)
+  })
+  fs.writeFile('../../tt-bar/src/results.json', JSON.stringify(raceResults, null, 2), function (err) {
     console.log(err)
   })
 }
@@ -164,6 +194,8 @@ function removeAttributes () {
       delete history.date
       delete history.name
     })
+    delete result.time
+    delete result.speed
   })
 }
 
