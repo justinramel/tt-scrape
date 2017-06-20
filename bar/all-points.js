@@ -80,20 +80,20 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           lbar: rider.lbar,
           jbar: rider.jbar
         })
-        if (!found.pointsHistory) {
-          found.pointsHistory = []
-        }
-        found.pointsHistory.push({
-          eventId: event.id,
-          date: event.date,
-          name: event.name,
-          raceCategory: event.length,
-          bar: rider.bar,
-          vbar: rider.vbar,
-          lbar: rider.lbar,
-          jbar: rider.jbar,
-          position: rider.position
-        })
+        // if (!found.pointsHistory) {
+        //   found.pointsHistory = []
+        // }
+        // found.pointsHistory.push({
+        //   eventId: event.id,
+        //   date: event.date,
+        //   name: event.name,
+        //   raceCategory: event.length,
+        //   bar: rider.bar,
+        //   vbar: rider.vbar,
+        //   lbar: rider.lbar,
+        //   jbar: rider.jbar,
+        //   position: rider.position
+        // })
 
         found.totals = totals(found)
       })
@@ -131,7 +131,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       console.log(data)
     })
 
-    addTags()
+    // addTags()
     writeToJSON()
 
     console.log('', '', '', '', '')
@@ -158,6 +158,7 @@ function removeAttributes () {
       delete race.speed
       delete race.raceCategory
       delete race.barPosition
+      delete race.pointsHistory
     })
   })
 }
