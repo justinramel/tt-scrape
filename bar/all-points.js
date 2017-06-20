@@ -160,6 +160,10 @@ function removeAttributes () {
       delete race.barPosition
       delete race.pointsHistory
     })
+    result.barHistory.forEach(history => {
+      delete history.date
+      delete history.name
+    })
   })
 }
 
