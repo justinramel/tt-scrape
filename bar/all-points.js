@@ -153,6 +153,7 @@ function removeAttributes () {
   barResults.forEach(result => {
     result.races.forEach(race => {
       delete race.name
+      delete race.date
       delete race.time
       delete race.speed
       delete race.raceCategory
