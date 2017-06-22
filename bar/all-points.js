@@ -34,17 +34,17 @@ const events = [
   { id: '14610', name: 'Barnesbury Cc (150 Riders)(Cheques To B Bayne)', course: 'M21', distance: 21, fee: 8.50, date: '18 March 2017', length: 'medium' },
   { id: '14649', name: 'Cramlington Cc (Cheques To Keith Sibbald)', course: 'M18', distance: 18, fee: 8.50, date: '25 March 2017', length: 'medium' },
   { id: '14700', name: 'North Tyneside Riders', course: 'M27', distance: 27, fee: 8.50, date: '02 April 2017', length: 'medium' },
-  // { id: '14821', name: 'Wansbeck Cc', course: 'M21', distance: 21, fee: 8.50, date: '22 April 2017', length: 'medium' },
+  { id: '14821', name: 'Wansbeck Cc', course: 'M21', distance: 21, fee: 8.50, date: '22 April 2017', length: 'medium' },
   { id: '14861', name: 'Houghton Cc', course: 'M1010B', distance: 10, fee: 8.50, date: '23 April 2017', length: 'short' },
   { id: '14909', name: 'North Tyneside Riders (N&Dca Champs)', course: 'M102B', distance: 10, fee: 8.50, date: '30 April 2017', length: 'short' },
-  // { id: '14959', name: 'Derwentside Cc (Lakes & Lancs Spoco)', course: 'M40', distance: 40, fee: 9.50, date: '07 May 2017', length: 'long' },
-  // { id: '15017', name: 'Tyneside Vagabonds Cc (Lakes & Lancs Spoco)', course: 'M47', distance: 47, fee: 11.00, date: '14 May 2017', length: 'long' },
-  // { id: '15075', name: 'Cramlington Cc (Cheques To John Hopper)', course: 'M102B', distance: 10, fee: 8.50, date: '20 May 2017', length: 'short' },
-  // { id: '15161', name: 'Blaydon Cc', course: 'M107', distance: 9.9, fee: 8.50, date: '28 May 2017', length: 'short' },
-  // { id: '15202', name: 'Allen Valley Velo (Lakes & Lancs Spoco)', course: 'M24.8', distance: 24.8, fee: 8.50, date: '04 June 2017', length: 'medium' },
-  // { id: '15232', name: 'Alnwick Cc', course: 'M13', distance: 13, fee: 8.50, date: '10 June 2017', length: 'short' },
-  // { id: '15260', name: 'North Tyneside Riders', course: 'M2511', distance: 25, fee: 8.50, date: '11 June 2017', length: 'medium' },
-  // { id: '15334', name: 'Barnesbury Cc (Cheques To Sharon Dyson)', course: 'M2510', distance: 25, fee: 8.50, date: '18 June 2017', length: 'medium' }
+  { id: '14959', name: 'Derwentside Cc (Lakes & Lancs Spoco)', course: 'M40', distance: 40, fee: 9.50, date: '07 May 2017', length: 'long' },
+  { id: '15017', name: 'Tyneside Vagabonds Cc (Lakes & Lancs Spoco)', course: 'M47', distance: 47, fee: 11.00, date: '14 May 2017', length: 'long' },
+  { id: '15075', name: 'Cramlington Cc (Cheques To John Hopper)', course: 'M102B', distance: 10, fee: 8.50, date: '20 May 2017', length: 'short' },
+  { id: '15161', name: 'Blaydon Cc', course: 'M107', distance: 9.9, fee: 8.50, date: '28 May 2017', length: 'short' },
+  { id: '15202', name: 'Allen Valley Velo (Lakes & Lancs Spoco)', course: 'M24.8', distance: 24.8, fee: 8.50, date: '04 June 2017', length: 'medium' },
+  { id: '15232', name: 'Alnwick Cc', course: 'M13', distance: 13, fee: 8.50, date: '10 June 2017', length: 'short' },
+  { id: '15260', name: 'North Tyneside Riders', course: 'M2511', distance: 25, fee: 8.50, date: '11 June 2017', length: 'medium' },
+  { id: '15334', name: 'Barnesbury Cc (Cheques To Sharon Dyson)', course: 'M2510', distance: 25, fee: 8.50, date: '18 June 2017', length: 'medium' }
 ]
 
 let barResults = []
