@@ -161,19 +161,19 @@ function writeToJSON () {
   removeAttributes()
 
   var fs = require('fs')
-  fs.writeFile('../../tt-bar/src/bar.json', JSON.stringify(barResults, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/data/bar.json', JSON.stringify(barResults, null, 2), function (err) {
     console.log(err)
   })
-  fs.writeFile('../../tt-bar/src/events.json', JSON.stringify(events, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/data/events.json', JSON.stringify(events, null, 2), function (err) {
     console.log(err)
   })
-  fs.writeFile('../../tt-bar/src/riders.json', JSON.stringify(allRiders, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/data/riders.json', JSON.stringify(allRiders, null, 2), function (err) {
     console.log(err)
   })
-  fs.writeFile('../../tt-bar/src/results.json', JSON.stringify(raceResults, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/data/results.json', JSON.stringify(raceResults, null, 2), function (err) {
     console.log(err)
   })
-  fs.writeFile('../../tt-bar/src/clubs.json', JSON.stringify(clubs, null, 2), function (err) {
+  fs.writeFile('../../tt-bar/src/data/clubs.json', JSON.stringify(clubs, null, 2), function (err) {
     console.log(err)
   })
 }
@@ -211,34 +211,6 @@ function calculateTeamPoints (data) {
   })
   results.sort((a, b) => b.total - a.total)
   return results
-}
-
-function addTags () {
-  barResults.forEach(result => {
-    result.tags = []
-
-    // addTag(result, r => r.position === '1', 'is-warning', '1st')
-    // addTag(result, r => r.position === '2', 'is-warning', '2nd')
-    // addTag(result, r => r.position === '3', 'is-warning', '3rd')
-    // addTag(result, r => Number(r.position) <= 5, 'is-warning', 'Top 5')
-    // addTag(result, r => Number(r.position) <= 10, 'is-warning', 'Top 10')
-
-    addTag(result, r => r.barPosition === 1, 'is-warning', '1st BAR')
-    addTag(result, r => r.barPosition === 2, 'is-warning', '2nd BAR')
-    addTag(result, r => r.barPosition === 3, 'is-warning', '3rd BAR')
-    addTag(result, r => r.barPosition <= 5, 'is-warning', 'Top 5 BAR')
-    addTag(result, r => r.barPosition <= 10, 'is-warning', 'Top 10 BAR')
-
-    addTag(result, r => r.position === 'DNS', 'is-black', 'DNS')
-    addTag(result, r => r.position === 'DNF', 'is-dark', 'DNF')
-  })
-}
-
-function addTag (result, filter, cssclass, text) {
-  const count = result.races.filter(filter).length
-  if (count > 0) {
-    result.tags.push({cssclass: `tag ${cssclass}`, text: `${count} x ${text}`})
-  }
 }
 
 function outputTeamResults (results) {
