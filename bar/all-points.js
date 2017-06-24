@@ -3,31 +3,31 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 const clubs = [
-  'Adept Precision RT',
-  'Allen Valley Velo',
-  'Alnwick Cycling Club',
-  'Barnesbury CC',
-  'Blaydon CC',
-  'Blumilk.com',
-  'Breeze Bikes RT',
-  'Cestria C.C.',
-  'Cestria Cycles RT',
-  'Cestria Cycles Racing Team',
-  'Cramlington CC',
-  'Derwentside CC',
-  'Gosforth RC',
-  'GS Metro',
-  'Houghton CC',
-  'M Steel Cycles RT',
-  'Manilla Cycling',
-  'Muckle Cycle Club',
-  'North Tyneside Riders CC',
-  'Northumbria Police C.C.',
-  'Ryton Tri Club',
-  'South Shields Velo Cycling Club',
-  'Sunderland Clarion',
-  'Tyneside Vagabonds CC',
-  'Wansbeck CC'
+  {id: 1, name: 'Adept Precision RT'},
+  {id: 2, name: 'Allen Valley Velo'},
+  {id: 3, name: 'Alnwick Cycling Club'},
+  {id: 4, name: 'Barnesbury CC'},
+  {id: 5, name: 'Blaydon CC'},
+  {id: 6, name: 'Blumilk.com'},
+  {id: 7, name: 'Breeze Bikes RT'},
+  {id: 8, name: 'Cestria C.C.'},
+  {id: 9, name: 'Cestria Cycles RT'},
+  {id: 10, name: 'Cestria Cycles Racing Team'},
+  {id: 11, name: 'Cramlington CC'},
+  {id: 12, name: 'Derwentside CC'},
+  {id: 13, name: 'Gosforth RC'},
+  {id: 14, name: 'GS Metro'},
+  {id: 15, name: 'Houghton CC'},
+  {id: 16, name: 'M Steel Cycles RT'},
+  {id: 17, name: 'Manilla Cycling'},
+  {id: 18, name: 'Muckle Cycle Club'},
+  {id: 19, name: 'North Tyneside Riders CC'},
+  {id: 20, name: 'Northumbria Police C.C.'},
+  {id: 21, name: 'Ryton Tri Club'},
+  {id: 22, name: 'South Shields Velo Cycling Club'},
+  {id: 23, name: 'Sunderland Clarion'},
+  {id: 24, name: 'Tyneside Vagabonds CC'},
+  {id: 25, name: 'Wansbeck CC'}
 ]
 
 const events = [
@@ -44,7 +44,18 @@ const events = [
   { id: '15202', name: 'Allen Valley Velo (Lakes & Lancs Spoco)', course: 'M24.8', distance: 24.8, fee: 8.50, date: '04 June 2017', length: 'medium' },
   { id: '15232', name: 'Alnwick Cc', course: 'M13', distance: 13, fee: 8.50, date: '10 June 2017', length: 'short' },
   { id: '15260', name: 'North Tyneside Riders', course: 'M2511', distance: 25, fee: 8.50, date: '11 June 2017', length: 'medium' },
-  { id: '15334', name: 'Barnesbury Cc (Cheques To Sharon Dyson)', course: 'M2510', distance: 25, fee: 8.50, date: '18 June 2017', length: 'medium' }
+  { id: '15334', name: 'Barnesbury Cc (Cheques To Sharon Dyson)', course: 'M2510', distance: 25, fee: 8.50, date: '18 June 2017', length: 'medium' },
+  { id: '15385', name: 'Cestria Cc (Cheques To R Mitford)', course: 'M9', distance: 9, fee: 9.50, date: '24 June 2017', length: 'short' },
+  { id: '15399', name: '(B) Houghton Cc', course: 'M254', distance: 25, fee: 8.50, date: '25 June 2017', length: 'medium' },
+  { id: '15531', name: '(B) Gosforth Rc (N&Dca Champs)(Cheques To Gosforth Rc)', course: 'M2511', distance: 25, fee: 8.50, date: '09 July 2017', length: 'medium' },
+  { id: '15541', name: 'Barnesbury Cc (80 Riders)(Cheques To B Bayne)', course: 'M102B', distance: 10, fee: 8.50, date: '12 July 2017', length: 'short' },
+  { id: '15594', name: 'Blaydon Cc', course: 'M14', distance: 14, fee: 8.50, date: '15 July 2017', length: 'short' },
+  { id: '15608', name: 'Gs Metro', course: 'M26', distance: 26, fee: 8.50, date: '22 July 2017', length: 'medium' },
+  { id: '15682', name: 'Sunderland Clarion Cc', course: 'M254', distance: 25, fee: 8.50, date: '30 July 2017', length: 'medium' },
+  { id: '15717', name: '(B) N & Dca (N&Dca Champs)', course: 'M509', distance: 50, fee: 8.50, date: '06 August 2017', length: 'long' },
+  { id: '15748', name: '(B) Tyneside Vagabonds Cc (N&Dca Champs)(Cheques To M Reed)', course: 'M100/20', distance: 100, fee: 10.00, date: '13 August 2017', length: 'long' },
+  { id: '15773', name: 'Cramlington Cc', course: 'M21', distance: 21, fee: 8.50, date: '19 August 2017', length: 'medium' }
+
 ]
 
 let barResults = []
@@ -135,7 +146,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     })
     console.log(header)
     let position = 1
-    const riderClubInBar = rider => clubs.includes(rider.club)
+    const riderClubInBar = rider => clubs.map(c => c.name).includes(rider.club)
     barResults = barResults.filter(riderClubInBar)
     barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
       result.position = position++
@@ -148,13 +159,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       console.log(data)
     })
 
-    // addTags()
     writeToJSON()
-
-    console.log('', '', '', '', '')
-
-    let teamResults = calculateTeamPoints(barResults)
-    outputTeamResults(teamResults)
   }))
 
 function writeToJSON () {
@@ -195,32 +200,6 @@ function removeAttributes () {
     })
     delete result.time
     delete result.speed
-  })
-}
-
-function calculateTeamPoints (data) {
-  let results = []
-  groupBy(data, x => x.club).forEach(clubs => {
-    let top3 = clubs.sort((a, b) => b.totals.grand - a.totals.grand).slice(0, 3)
-    let total = top3.reduce((total, rider) => total + rider.totals.grand, 0)
-    results.push({
-      club: clubs[0].club,
-      total,
-      top3
-    })
-  })
-  results.sort((a, b) => b.total - a.total)
-  return results
-}
-
-function outputTeamResults (results) {
-  console.log(`pos, team, points`)
-  let position = 1
-  results.forEach(team => {
-    console.log(`${position++}, ${team.club}, ${team.total}`)
-    team.top3.forEach(rider => {
-      console.log(`,,, ${rider.name}, ${rider.totals.grand}`)
-    })
   })
 }
 
