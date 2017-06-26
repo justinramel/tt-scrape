@@ -165,9 +165,9 @@ function writeToJSON () {
   removeAttributes()
 
   var fs = require('fs')
-  fs.writeFile('../../tt-bar/src/data/bar.json', JSON.stringify(barResults, null, 2), function (err) {
-    console.log(err)
-  })
+  // fs.writeFile('../../tt-bar/src/data/bar.json', JSON.stringify(barResults, null, 2), function (err) {
+  //   console.log(err)
+  // })
   fs.writeFile('../../tt-bar/src/data/events.json', JSON.stringify(events, null, 2), function (err) {
     console.log(err)
   })
