@@ -1,0 +1,732 @@
+[
+  {
+    "id": "10556",
+    "position": "1",
+    "name": "Niall Paterson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Velo Club Cumbria",
+    "time": "1:10:10",
+    "speed": ""
+  },
+  {
+    "id": "3213",
+    "position": "2",
+    "name": "Karl Juan Denton",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Newcastle Cheviot CC",
+    "time": "1:12:25",
+    "speed": ""
+  },
+  {
+    "id": "3037",
+    "position": "3",
+    "name": "Nick Badcock",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "1:13:20",
+    "speed": ""
+  },
+  {
+    "id": "5439",
+    "position": "4",
+    "name": "Jamie Johnson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Barnesbury CC",
+    "time": "1:13:30",
+    "speed": ""
+  },
+  {
+    "id": "7048",
+    "position": "5",
+    "name": "Ross Gray",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "1:13:33",
+    "speed": ""
+  },
+  {
+    "id": "866",
+    "position": "6",
+    "name": "Colin Atkinson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "1:13:42",
+    "speed": ""
+  },
+  {
+    "id": "16809",
+    "position": "7",
+    "name": "Collin Humphrey",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "1:13:47",
+    "speed": ""
+  },
+  {
+    "id": "255",
+    "position": "8",
+    "name": "Hedley Fletcher",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "1:14:51",
+    "speed": ""
+  },
+  {
+    "id": "1318",
+    "position": "9",
+    "name": "Paul Braithwaite",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Pendle Forest CC",
+    "time": "1:16:05",
+    "speed": ""
+  },
+  {
+    "id": "1033",
+    "position": "10",
+    "name": "Steven Craggs",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "1:16:07",
+    "speed": ""
+  },
+  {
+    "id": "8060",
+    "position": "11",
+    "name": "Nick Jones",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Velo Club Cumbria",
+    "time": "1:16:31",
+    "speed": ""
+  },
+  {
+    "id": "918",
+    "position": "12",
+    "name": "Dan Small",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Teesdale CRC",
+    "time": "1:17:59",
+    "speed": ""
+  },
+  {
+    "id": "1170",
+    "position": "13",
+    "name": "Michael Todd",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "1:18:02",
+    "speed": ""
+  },
+  {
+    "id": "4367",
+    "position": "14",
+    "name": "chris mather",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "1:19:03",
+    "speed": ""
+  },
+  {
+    "id": "12581",
+    "position": "15",
+    "name": "Robert Scandle",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:19:17",
+    "speed": ""
+  },
+  {
+    "id": "11274",
+    "position": "16",
+    "name": "Craig Deacon",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "South Shields Velo Cycling Club",
+    "time": "1:19:28",
+    "speed": ""
+  },
+  {
+    "id": "708",
+    "position": "17",
+    "name": "Christopher Beaty",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "1:19:48",
+    "speed": ""
+  },
+  {
+    "id": "560",
+    "position": "18",
+    "name": "Craig Fenwick",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Team Swift",
+    "time": "1:21:26",
+    "speed": ""
+  },
+  {
+    "id": "3938",
+    "position": "19",
+    "name": "Roy Flanagan",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Rossendale RC",
+    "time": "1:21:30",
+    "speed": ""
+  },
+  {
+    "id": "409",
+    "position": "20",
+    "name": "Neil Withington",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Beacon Wheelers",
+    "time": "1:22:03",
+    "speed": ""
+  },
+  {
+    "id": "3218",
+    "position": "21",
+    "name": "Mal Gray",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "1:22:28",
+    "speed": ""
+  },
+  {
+    "id": "1908",
+    "position": "22",
+    "name": "Fiona Burnie",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Bishop Auckland CC",
+    "time": "1:23:10",
+    "speed": ""
+  },
+  {
+    "id": "7366",
+    "position": "23",
+    "name": "Jeremy Prodger",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Beacon Wheelers",
+    "time": "1:23:22",
+    "speed": ""
+  },
+  {
+    "id": "9402",
+    "position": "24",
+    "name": "ROY PATTINSON",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Breeze Bikes RT",
+    "time": "1:23:36",
+    "speed": ""
+  },
+  {
+    "id": "5305",
+    "position": "25",
+    "name": "ian gallon",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "North Tyneside Riders CC",
+    "time": "1:23:47",
+    "speed": ""
+  },
+  {
+    "id": "6242",
+    "position": "26",
+    "name": "Andrew Ibberson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:24:14",
+    "speed": ""
+  },
+  {
+    "id": "5169",
+    "position": "27",
+    "name": "Tim Nichol",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "1:24:25",
+    "speed": ""
+  },
+  {
+    "id": "1419",
+    "position": "28",
+    "name": "Dougan Collins",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Ferryhill Whs",
+    "time": "1:24:38",
+    "speed": ""
+  },
+  {
+    "id": "1078",
+    "position": "29",
+    "name": "Bryan Laycock",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Alnwick Cycling Club",
+    "time": "1:24:40",
+    "speed": ""
+  },
+  {
+    "id": "16387",
+    "position": "30",
+    "name": "Dan Pons",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "1:24:42",
+    "speed": ""
+  },
+  {
+    "id": "4863",
+    "position": "31",
+    "name": "David Goodwin",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Newcastle Cheviot CC",
+    "time": "1:25:18",
+    "speed": ""
+  },
+  {
+    "id": "1711",
+    "position": "32",
+    "name": "Tom Guy",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Sunderland Clarion",
+    "time": "1:25:19",
+    "speed": ""
+  },
+  {
+    "id": "686",
+    "position": "33",
+    "name": "Sebastian Stockbridge",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "1:25:26",
+    "speed": ""
+  },
+  {
+    "id": "1890",
+    "position": "34",
+    "name": "Christian Roberts",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:25:37",
+    "speed": ""
+  },
+  {
+    "id": "5444",
+    "position": "35",
+    "name": "Lee Statham",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Houghton CC",
+    "time": "1:25:52",
+    "speed": ""
+  },
+  {
+    "id": "6666",
+    "position": "36",
+    "name": "David Swainson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "1:26:45",
+    "speed": ""
+  },
+  {
+    "id": "6142",
+    "position": "37",
+    "name": "John Paul Herron",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "1:26:53",
+    "speed": ""
+  },
+  {
+    "id": "2553",
+    "position": "38",
+    "name": "Ross Strachan",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Loudoun Road Club",
+    "time": "1:27:18",
+    "speed": ""
+  },
+  {
+    "id": "18579",
+    "position": "39",
+    "name": "Sue Rigby",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:28:10",
+    "speed": ""
+  },
+  {
+    "id": "868",
+    "position": "40",
+    "name": "David Hordon",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Barnesbury CC",
+    "time": "1:28:47",
+    "speed": ""
+  },
+  {
+    "id": "6306",
+    "position": "41",
+    "name": "BRENDON JACKSON",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:28:53",
+    "speed": ""
+  },
+  {
+    "id": "5492",
+    "position": "42",
+    "name": "Ivan Newton",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:29:19",
+    "speed": ""
+  },
+  {
+    "id": "12103",
+    "position": "43",
+    "name": "Malcolm West",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:30:12",
+    "speed": ""
+  },
+  {
+    "id": "16666",
+    "position": "44",
+    "name": "Keith Sibbald",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cramlington CC",
+    "time": "1:30:42",
+    "speed": ""
+  },
+  {
+    "id": "12616",
+    "position": "45",
+    "name": "Michael Woodhouse",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:31:42",
+    "speed": ""
+  },
+  {
+    "id": "6464",
+    "position": "46",
+    "name": "Melanie Annable",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:34:15",
+    "speed": ""
+  },
+  {
+    "id": "18466",
+    "position": "47",
+    "name": "daniel alpin",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:35:16",
+    "speed": ""
+  },
+  {
+    "id": "6721",
+    "position": "48",
+    "name": "Louise Hamilton",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Mountain Goat Coaching",
+    "time": "1:35:55",
+    "speed": ""
+  },
+  {
+    "id": "7649",
+    "position": "49",
+    "name": "Emma Alpin",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:37:00",
+    "speed": ""
+  },
+  {
+    "id": "7431",
+    "position": "50",
+    "name": "claire jackson",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:37:03",
+    "speed": ""
+  },
+  {
+    "id": "11529",
+    "position": "51",
+    "name": "Helen Richardson",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:38:50",
+    "speed": ""
+  },
+  {
+    "id": "7669",
+    "position": "52",
+    "name": "Paul Morrison",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:38:56",
+    "speed": ""
+  },
+  {
+    "id": "17943",
+    "position": "53",
+    "name": "Dean Taylor",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:39:13",
+    "speed": ""
+  },
+  {
+    "id": "11392",
+    "position": "54",
+    "name": "Sheena Harrison",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:41:04",
+    "speed": ""
+  },
+  {
+    "id": "5955",
+    "position": "55",
+    "name": "Stewart Beaty",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "1:49:12",
+    "speed": ""
+  },
+  {
+    "id": "7758",
+    "position": "DNF",
+    "name": "Craig Bell",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "8395",
+    "position": "DNF",
+    "name": "Archie Irving",
+    "sex": "Male",
+    "category": "Juvenile",
+    "club": "Beacon Wheelers",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "16600",
+    "position": "DNS",
+    "name": "Alex Fairer",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Barrow Central Wheelers",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "7680",
+    "position": "DNS",
+    "name": "joanne allan",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Blumilk.com",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "16",
+    "position": "DNS",
+    "name": "Molly Horsley Frost",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Buxton CC/Sett Valley Cycles",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "7050",
+    "position": "DNS",
+    "name": "peter mcglynn",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "1855",
+    "position": "DNS",
+    "name": "Patrick Pennefather",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Border City Whs CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "7125",
+    "position": "DNS",
+    "name": "Justin Jeffries",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "4125",
+    "position": "DNS",
+    "name": "Charlie Loizou",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Muckle Cycle Club",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "11448",
+    "position": "DNS",
+    "name": "Andy Haw",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "7993",
+    "position": "DNS",
+    "name": "Simon Gibbs",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Tyneside Vagabonds CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "6436",
+    "position": "DNS",
+    "name": "Ross Walton",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "18458",
+    "position": "DNS",
+    "name": "Antonio Bachini",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "1502",
+    "position": "DNS",
+    "name": "Justin Ramel",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "4751",
+    "position": "DNS",
+    "name": "Jon Sturman",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blumilk.com",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "330",
+    "position": "DNS",
+    "name": "David Pritchard",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Kennoway Road Club",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "3393",
+    "position": "DNS",
+    "name": "Christian Henderson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Allen Valley Velo",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "65",
+    "position": "DNS",
+    "name": "Carl Donaldson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "GS Metro",
+    "time": "",
+    "speed": ""
+  }
+]

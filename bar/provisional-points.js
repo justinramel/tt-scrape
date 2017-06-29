@@ -2,8 +2,8 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 
-const inputFile = process.argv[2] || 'm9.json'
-const outputFile = process.argv[3] || '15378.json'
+const inputFile = process.argv[2] || './provisional-points/input/m24-8.json'
+const outputFile = process.argv[3] || '15202.json'
 const input = require(`./${inputFile}`)
 
 let provisional = []
