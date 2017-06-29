@@ -359,12 +359,12 @@ function groupBy (list, keyGetter) {
   return map
 }
 
-function qualified (race) {
+function finished (race) {
   return race.position !== 'DNS' && race.position !== 'DNF'
 }
 
 function inBar (rider) {
-  return clubs.map(c => c.name).includes(rider.club) && qualified(rider)
+  return clubs.map(c => c.name).includes(rider.club) && finished(rider)
 }
 
 function vet (rider) {
