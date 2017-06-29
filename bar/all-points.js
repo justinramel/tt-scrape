@@ -376,7 +376,7 @@ function lady (rider) {
 }
 
 function junior (rider) {
-  return inBar(rider) && rider.category === 'Junior'
+  return inBar(rider) && (rider.category === 'Junior' || rider.category === 'Juvenile')
 }
 
 function formatTime (time) {
