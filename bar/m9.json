@@ -1,0 +1,302 @@
+[
+  {
+    "Position": 1,
+    "Name": "Keith Murray",
+    "Time": "0:20:12"
+  },
+  {
+    "Position": 2,
+    "Name": "Shaun Tyson",
+    "Time": "0:20:39"
+  },
+  {
+    "Position": 3,
+    "Name": "Darren Williamson",
+    "Time": "0:21:00"
+  },
+  {
+    "Position": 4,
+    "Name": "Chris Mather",
+    "Time": "0:21:13"
+  },
+  {
+    "Position": 5,
+    "Name": "Hedley Fletcher",
+    "Time": "0:21:17"
+  },
+  {
+    "Position": 6,
+    "Name": "Terry Wilkinson",
+    "Time": "0:21:19"
+  },
+  {
+    "Position": 7,
+    "Name": "Nick Badcock",
+    "Time": "0:21:26"
+  },
+  {
+    "Position": 8,
+    "Name": "Steven Craggs",
+    "Time": "0:21:30"
+  },
+  {
+    "Position": 9,
+    "Name": "Ross Walton",
+    "Time": "0:21:32"
+  },
+  {
+    "Position": 10,
+    "Name": "Matthew Webb",
+    "Time": "0:21:43"
+  },
+  {
+    "Position": 11,
+    "Name": "Chris Burns",
+    "Time": "0:21:44",
+    "id": "3926",
+    "name": "Chris Burns",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Cestria Cycles Racing Team"
+  },
+  {
+    "Position": 12,
+    "Name": "Lewis Timmins",
+    "Time": "0:21:47"
+  },
+  {
+    "Position": 13,
+    "Name": "Richard Lilleker",
+    "Time": "0:21:49"
+  },
+  {
+    "Position": 14,
+    "Name": "Michael Johnson",
+    "Time": "0:21:54"
+  },
+  {
+    "Position": 15,
+    "Name": "Nicholas Stevenson",
+    "Time": "0:21:58"
+  },
+  {
+    "Position": 16,
+    "Name": "Michael Todd",
+    "Time": "0:21:59"
+  },
+  {
+    "Position": 17,
+    "Name": "David Robinson",
+    "Time": "0:22:00"
+  },
+  {
+    "Position": 18,
+    "Name": "Tony Fawcett",
+    "Time": "0:22:03"
+  },
+  {
+    "Position": 19,
+    "Name": "Michael Openshaw",
+    "Time": "0:22:08"
+  },
+  {
+    "Position": 20,
+    "Name": "Colin Humphrey",
+    "Time": "0:22:18"
+  },
+  {
+    "Position": 21,
+    "Name": "Paul Hague",
+    "Time": "0:22:36"
+  },
+  {
+    "Position": 22,
+    "Name": "Peter Herdman",
+    "Time": "0:22:40"
+  },
+  {
+    "Position": 23,
+    "Name": "Josh Craven",
+    "Time": "0:22:43"
+  },
+  {
+    "Position": 23,
+    "Name": "Sean Kennedy",
+    "Time": "0:22:43"
+  },
+  {
+    "Position": 25,
+    "Name": "Sam Murray",
+    "Time": "0:22:44"
+  },
+  {
+    "Position": 26,
+    "Name": "John Davidson",
+    "Time": "0:23:01"
+  },
+  {
+    "Position": 27,
+    "Name": "Gareth Clarke",
+    "Time": "0:23:06"
+  },
+  {
+    "Position": 28,
+    "Name": "Kevin Hall",
+    "Time": "0:23:08"
+  },
+  {
+    "Position": 29,
+    "Name": "Lee Statham",
+    "Time": "0:23:26"
+  },
+  {
+    "Position": 30,
+    "Name": "Paul Wright",
+    "Time": "0:23:28"
+  },
+  {
+    "Position": 31,
+    "Name": "Steven Mulvey",
+    "Time": "0:23:29"
+  },
+  {
+    "Position": 32,
+    "Name": "David Swainson",
+    "Time": "0:23:31"
+  },
+  {
+    "Position": 33,
+    "Name": "Venda Louise Pollock",
+    "Time": "0:23:33"
+  },
+  {
+    "Position": 34,
+    "Name": "Bryan Laycock",
+    "Time": "0:23:34"
+  },
+  {
+    "Position": 35,
+    "Name": "Phil Cook",
+    "Time": "0:23:43",
+    "id": "3926",
+    "name": "Phil Cook",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C."
+  },
+  {
+    "Position": 36,
+    "Name": "James Corfield",
+    "Time": "0:23:44"
+  },
+  {
+    "Position": 37,
+    "Name": "Neil Foster",
+    "Time": "0:23:50"
+  },
+  {
+    "Position": 38,
+    "Name": "Ray Robinson",
+    "Time": "0:23:56"
+  },
+  {
+    "Position": 39,
+    "Name": "Paul Tyler",
+    "Time": "0:24:00"
+  },
+  {
+    "Position": 40,
+    "Name": "Andrew Charlesworth",
+    "Time": "0:24:04"
+  },
+  {
+    "Position": 41,
+    "Name": "Thomas Hordon",
+    "Time": "0:24:13"
+  },
+  {
+    "Position": 42,
+    "Name": "Clive Horton",
+    "Time": "0:24:19"
+  },
+  {
+    "Position": 43,
+    "Name": "Brendan McMillan",
+    "Time": "0:24:46"
+  },
+  {
+    "Position": 44,
+    "Name": "David Hordon",
+    "Time": "0:24:55"
+  },
+  {
+    "Position": 45,
+    "Name": "Gemma Hutchins",
+    "Time": "0:25:07"
+  },
+  {
+    "Position": 46,
+    "Name": "Michael Wyngard",
+    "Time": "0:25:16"
+  },
+  {
+    "Position": 47,
+    "Name": "Richard Nichol",
+    "Time": "0:26:07"
+  },
+  {
+    "Position": 48,
+    "Name": "Hannah Baker",
+    "Time": "0:26:55"
+  },
+  {
+    "Position": 49,
+    "Name": "Michael Williamson",
+    "Time": "0:27:11"
+  },
+  {
+    "Position": 50,
+    "Name": "Stephen Cummings",
+    "Time": "0:27:24"
+  },
+  {
+    "Position": 51,
+    "Name": "Jane Massey",
+    "Time": "0:27:41"
+  },
+  {
+    "Position": 52,
+    "Name": "Ellis Murray",
+    "Time": "0:29:01"
+  },
+  {
+    "Position": 53,
+    "Name": "Amy Hugill",
+    "Time": "0:29:26"
+  },
+  {
+    "Position": 54,
+    "Name": "Lois Robinson",
+    "Time": "0:30:56"
+  },
+  {
+    "Position": 55,
+    "Name": "Gareth Davies",
+    "Time": "0:32:36"
+  },
+  {
+    "Position": "DNS",
+    "Name": "Robert Knibbs",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Sebastian Stockbridge",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Peter Davey",
+    "Time": ""
+  }
+]

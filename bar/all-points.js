@@ -45,7 +45,7 @@ const events = [
   { id: '15232', name: 'Alnwick Cc', course: 'M13', distance: 13, fee: 8.50, date: '10 June 2017', length: 'short', closes: '30 May 2017' },
   { id: '15260', name: 'North Tyneside Riders', course: 'M2511', distance: 25, fee: 8.50, date: '11 June 2017', length: 'medium', closes: '30 May 2017' },
   { id: '15334', name: 'Barnesbury Cc (Cheques To Sharon Dyson)', course: 'M2510', distance: 25, fee: 8.50, date: '18 June 2017', length: 'medium', closes: '10 June 2017' },
-  { id: '15378', name: 'Cestria Cc (Cheques To R Mitford)', course: 'M9', distance: 9, fee: 9.50, date: '24 June 2017', length: 'short', closes: '06 June 2017' },
+  { id: '15378', name: 'Cestria Cc (Cheques To R Mitford)', course: 'M9', distance: 9, fee: 9.50, date: '24 June 2017', length: 'short', closes: '06 June 2017', provisional: true },
   { id: '15392', name: '(B) Houghton Cc', course: 'M254', distance: 25, fee: 8.50, date: '25 June 2017', length: 'medium', closes: '13 June 2017' },
   { id: '15524', name: '(B) Gosforth Rc (N&Dca Champs)(Cheques To Gosforth Rc)', course: 'M2511', distance: 25, fee: 8.50, date: '09 July 2017', length: 'medium', closes: '27 June 2017' },
   { id: '15534', name: 'Barnesbury Cc (80 Riders)(Cheques To B Bayne)', course: 'M102B', distance: 10, fee: 8.50, date: '12 July 2017', length: 'short', closes: '01 July 2017' },
@@ -67,6 +67,9 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let results = extractResults(response)
       let event = extractEvent(response)
       let riders = extractRiders(results)
+      if (riders.length === 0 && event.provisional) {
+        riders = require(`./provisional-points/${event.id}.json`)
+      }
 
       riders.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)

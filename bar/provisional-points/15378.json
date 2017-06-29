@@ -1,0 +1,582 @@
+[
+  {
+    "id": "337",
+    "position": 1,
+    "name": "Keith Murray",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "DRAG2ZERO",
+    "time": "0:20:12",
+    "speed": ""
+  },
+  {
+    "id": "17236",
+    "position": 2,
+    "name": "Shaun Tyson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Adept Precision RT",
+    "time": "0:20:39",
+    "speed": ""
+  },
+  {
+    "id": "9684",
+    "position": 3,
+    "name": "darren williamson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "0:21:00",
+    "speed": ""
+  },
+  {
+    "id": "4367",
+    "position": 4,
+    "name": "chris mather",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "0:21:13",
+    "speed": ""
+  },
+  {
+    "id": "255",
+    "position": 5,
+    "name": "Hedley Fletcher",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "0:21:17",
+    "speed": ""
+  },
+  {
+    "id": "1027",
+    "position": 6,
+    "name": "Terry Wilkinson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Tyne & Wear Fire & Rescue Service CC",
+    "time": "0:21:19",
+    "speed": ""
+  },
+  {
+    "id": "3037",
+    "position": 7,
+    "name": "Nick Badcock",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "0:21:26",
+    "speed": ""
+  },
+  {
+    "id": "1033",
+    "position": 8,
+    "name": "Steven Craggs",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "0:21:30",
+    "speed": ""
+  },
+  {
+    "id": "6436",
+    "position": 9,
+    "name": "Ross Walton",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "0:21:32",
+    "speed": ""
+  },
+  {
+    "id": "15515",
+    "position": 10,
+    "name": "Matthew Webb",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Houghton CC",
+    "time": "0:21:43",
+    "speed": ""
+  },
+  {
+    "id": "3926",
+    "position": 11,
+    "name": "Chris Burns",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cestria Cycles Racing Team",
+    "time": "0:21:44",
+    "speed": ""
+  },
+  {
+    "id": "8323",
+    "position": 12,
+    "name": "lewis timmins",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Muckle Cycle Club",
+    "time": "0:21:47",
+    "speed": ""
+  },
+  {
+    "id": "1810",
+    "position": 13,
+    "name": "Richard Lilleker",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cleveland Wheelers CC",
+    "time": "0:21:49",
+    "speed": ""
+  },
+  {
+    "id": "4952",
+    "position": 14,
+    "name": "Michael Johnson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Muckle Cycle Club",
+    "time": "0:21:54",
+    "speed": ""
+  },
+  {
+    "id": "3088",
+    "position": 15,
+    "name": "Nicholas Stevenson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "0:21:58",
+    "speed": ""
+  },
+  {
+    "id": "1170",
+    "position": 16,
+    "name": "Michael Todd",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "0:21:59",
+    "speed": ""
+  },
+  {
+    "id": "19134",
+    "position": 17,
+    "name": "David Robinson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Wakefield Tri Club",
+    "time": "0:22:00",
+    "speed": ""
+  },
+  {
+    "id": "2235",
+    "position": 18,
+    "name": "Tony Fawcett",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Newcastle Cheviot CC",
+    "time": "0:22:03",
+    "speed": ""
+  },
+  {
+    "id": "3648",
+    "position": 19,
+    "name": "michael openshaw",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "0:22:08",
+    "speed": ""
+  },
+  {
+    "id": "692",
+    "position": 20,
+    "name": "Colin Humphrey",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "0:22:18",
+    "speed": ""
+  },
+  {
+    "id": "446",
+    "position": 21,
+    "name": "Paul Hague",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "0:22:36",
+    "speed": ""
+  },
+  {
+    "id": "6029",
+    "position": 22,
+    "name": "Peter Herdman",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "0:22:40",
+    "speed": ""
+  },
+  {
+    "id": "6348",
+    "position": 23,
+    "name": "Josh Craven",
+    "sex": "Male",
+    "category": "Junior",
+    "club": "Tyneside Vagabonds CC",
+    "time": "0:22:43",
+    "speed": ""
+  },
+  {
+    "id": "817",
+    "position": 23,
+    "name": "Sean Kennedy",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "North Tyneside Riders CC",
+    "time": "0:22:43",
+    "speed": ""
+  },
+  {
+    "id": "6448",
+    "position": 25,
+    "name": "Sam Murray",
+    "sex": "Male",
+    "category": "Juvenile",
+    "club": "DRAG2ZERO",
+    "time": "0:22:44",
+    "speed": ""
+  },
+  {
+    "id": "19059",
+    "position": 26,
+    "name": "JOHN DAVIDSON",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Newcastle Cheviot CC",
+    "time": "0:23:01",
+    "speed": ""
+  },
+  {
+    "id": "471",
+    "position": 27,
+    "name": "Gareth Clarke",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cestria C.C.",
+    "time": "0:23:06",
+    "speed": ""
+  },
+  {
+    "id": "9296",
+    "position": 28,
+    "name": "Kevin Hall",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Sunderland Clarion",
+    "time": "0:23:08",
+    "speed": ""
+  },
+  {
+    "id": "5444",
+    "position": 29,
+    "name": "Lee Statham",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Houghton CC",
+    "time": "0:23:26",
+    "speed": ""
+  },
+  {
+    "id": "16877",
+    "position": 30,
+    "name": "Paul Wright",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Rock Estate",
+    "time": "0:23:28",
+    "speed": ""
+  },
+  {
+    "id": "16746",
+    "position": 31,
+    "name": "Steven Mulvey",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "0:23:29",
+    "speed": ""
+  },
+  {
+    "id": "6666",
+    "position": 32,
+    "name": "David Swainson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "0:23:31",
+    "speed": ""
+  },
+  {
+    "id": "775",
+    "position": 33,
+    "name": "Venda Louise Pollock",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Breeze Bikes RT",
+    "time": "0:23:33",
+    "speed": ""
+  },
+  {
+    "id": "1078",
+    "position": 34,
+    "name": "Bryan Laycock",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Alnwick Cycling Club",
+    "time": "0:23:34",
+    "speed": ""
+  },
+  {
+    "id": "3926",
+    "position": 11,
+    "name": "Chris Burns",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cestria Cycles Racing Team",
+    "time": "0:21:44",
+    "speed": ""
+  },
+  {
+    "id": "11437",
+    "position": 36,
+    "name": "James Corfield",
+    "sex": "Male",
+    "category": "Junior",
+    "club": "Gosforth RC",
+    "time": "0:23:44",
+    "speed": ""
+  },
+  {
+    "id": "2955",
+    "position": 37,
+    "name": "Neil Foster",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Adept Precision RT",
+    "time": "0:23:50",
+    "speed": ""
+  },
+  {
+    "id": "7428",
+    "position": 38,
+    "name": "Ray Robinson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Sunderland Clarion",
+    "time": "0:23:56",
+    "speed": ""
+  },
+  {
+    "id": "13678",
+    "position": 39,
+    "name": "Paul Tyler",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "0:24:00",
+    "speed": ""
+  },
+  {
+    "id": "8884",
+    "position": 40,
+    "name": "Andrew Charlesworth",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Ferryhill Whs",
+    "time": "0:24:04",
+    "speed": ""
+  },
+  {
+    "id": "888",
+    "position": 41,
+    "name": "Thomas Hordon",
+    "sex": "Male",
+    "category": "Espoir",
+    "club": "Barnesbury CC",
+    "time": "0:24:13",
+    "speed": ""
+  },
+  {
+    "id": "2383",
+    "position": 42,
+    "name": "Clive Horton",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Barnesbury CC",
+    "time": "0:24:19",
+    "speed": ""
+  },
+  {
+    "id": "16453",
+    "position": 43,
+    "name": "Brendan Mcmillan",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Tyne & Wear Fire & Rescue Service CC",
+    "time": "0:24:46",
+    "speed": ""
+  },
+  {
+    "id": "868",
+    "position": 44,
+    "name": "David Hordon",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Barnesbury CC",
+    "time": "0:24:55",
+    "speed": ""
+  },
+  {
+    "id": "3838",
+    "position": 45,
+    "name": "Gemma Hutchins",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "0:25:07",
+    "speed": ""
+  },
+  {
+    "id": "1616",
+    "position": 46,
+    "name": "Michael Wyngard",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "0:25:16",
+    "speed": ""
+  },
+  {
+    "id": "8468",
+    "position": 47,
+    "name": "Richard Nichol",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cestria C.C.",
+    "time": "0:26:07",
+    "speed": ""
+  },
+  {
+    "id": "3953",
+    "position": 48,
+    "name": "Hannah Baker",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "North Tyneside Riders CC",
+    "time": "0:26:55",
+    "speed": ""
+  },
+  {
+    "id": "6412",
+    "position": 49,
+    "name": "michael williamson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "GS Metro",
+    "time": "0:27:11",
+    "speed": ""
+  },
+  {
+    "id": "1428",
+    "position": 50,
+    "name": "Stephen Cummings",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "0:27:24",
+    "speed": ""
+  },
+  {
+    "id": "9329",
+    "position": 51,
+    "name": "Jane Massey",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Cramlington CC",
+    "time": "0:27:41",
+    "speed": ""
+  },
+  {
+    "id": "16344",
+    "position": 52,
+    "name": "Ellis Murray",
+    "sex": "Male",
+    "category": "Juvenile",
+    "club": "DRAG2ZERO",
+    "time": "0:29:01",
+    "speed": ""
+  },
+  {
+    "id": "19020",
+    "position": 53,
+    "name": "Amy Hugill",
+    "sex": "Female",
+    "category": "Espoir",
+    "club": "Blaydon CC",
+    "time": "0:29:26",
+    "speed": ""
+  },
+  {
+    "id": "16731",
+    "position": 54,
+    "name": "Lois Robinson",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "0:30:56",
+    "speed": ""
+  },
+  {
+    "id": "12986",
+    "position": 55,
+    "name": "Gareth Davies",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Bury Clarion CC",
+    "time": "0:32:36",
+    "speed": ""
+  },
+  {
+    "id": "18084",
+    "position": "DNS",
+    "name": "Robert Knibbs",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Richmond CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "686",
+    "position": "DNS",
+    "name": "Sebastian Stockbridge",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "",
+    "speed": ""
+  },
+  {
+    "id": "15957",
+    "position": "DNS",
+    "name": "Peter Davey",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "MTS Cycle Sport",
+    "time": "",
+    "speed": ""
+  }
+]
