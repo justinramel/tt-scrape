@@ -323,11 +323,14 @@ function calculatePoints (riders, event) {
   let grouped = groupBy(points, point => point.time)
   grouped.forEach(times => {
     if (times.length > 1) {
-      const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
+      const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0]
       times.forEach(time => {
         let result = points.find(p => p.id === time.id)
         if (inBar(result, event.date)) {
-          result.bar = best
+          result.bar = best.bar
+          result.vbar = best.vbar
+          result.lbar = best.lbar
+          result.jbar = best.jbar
         }
       })
     }
