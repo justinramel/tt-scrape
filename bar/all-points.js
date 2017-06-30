@@ -31,6 +31,10 @@ const clubs = [
   {id: 25, name: 'Wansbeck CC'}
 ]
 
+const individuals = [
+  {id: '1408', name: 'Jennifer Holland'}
+]
+
 const events = [
   { id: '14610', name: 'Barnesbury Cc (150 Riders)(Cheques To B Bayne)', course: 'M21', distance: 21, fee: 8.50, date: '18 March 2017', length: 'medium', closes: '07 March 2017' },
   { id: '14649', name: 'Cramlington Cc (Cheques To Keith Sibbald)', course: 'M18', distance: 18, fee: 8.50, date: '25 March 2017', length: 'medium', closes: '14 March 2017' },
@@ -328,8 +332,14 @@ function calculatePoints (riders, event) {
         let result = points.find(p => p.id === time.id)
         if (inBar(result, event.date)) {
           result.bar = best.bar
+        }
+        if (vet(result, event.date)) {
           result.vbar = best.vbar
+        }
+        if (lady(result, event.date)) {
           result.lbar = best.lbar
+        }
+        if (junior(result, event.date)) {
           result.jbar = best.jbar
         }
       })
@@ -357,11 +367,11 @@ function finished (race) {
 }
 
 function inBar (rider, date) {
-  return affiliated(rider.club, date) && finished(rider)
+  return affiliated(rider, date) && finished(rider)
 }
 
-function affiliated (club, date) {
-  const affiliatedClub = clubs.find(c => c.name === club)
+function affiliated (rider, date) {
+  const affiliatedClub = clubs.find(c => c.name === rider.club)
   if (affiliatedClub) {
     if (affiliatedClub.date) {
       const raceDate = moment(date, 'DD MMMM YYYY', true)
@@ -371,7 +381,7 @@ function affiliated (club, date) {
       return true
     }
   } else {
-    return false
+    return individuals.find(i => i.id === rider.id)
   }
 }
 
