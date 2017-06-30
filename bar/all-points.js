@@ -74,16 +74,11 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       riders.forEach(rider => {
         let found = barResults.find(x => x.id === rider.id)
         if (found && found.club !== rider.club) {
-          changeClub(found)
-          raceResults.forEach(raceResult => {
-            let result = raceResult.results.find(r => r.id === rider.id)
-            if (result) changeClub(result)
-          })
-        }
-        found = allRiders.find(x => x.id === rider.id)
-        if (found && found.club !== rider.club) {
-          changeClub(found)
-          found = null
+          found.club = rider.club
+          let x = allRiders.find(r => r.id === rider.id)
+          if (x && x.club !== rider.club) {
+            x.club = rider.club
+          }
         }
         if (!found) {
           barResults.push(rider)
@@ -176,18 +171,10 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
     writeToJSON()
   }))
 
-function changeClub (rider) {
-  rider.id = `${rider.id}-${slugify(rider.club)}`
-  rider.name = `${rider.name} (${rider.club})`
-}
-
 function writeToJSON () {
   removeAttributes()
 
   var fs = require('fs')
-  // fs.writeFile('../../tt-bar/src/data/bar.json', JSON.stringify(barResults, null, 2), function (err) {
-  //   console.log(err)
-  // })
   fs.writeFile('../../tt-bar/src/data/events.json', JSON.stringify(events, null, 2), function (err) {
     console.log(err)
   })
@@ -382,14 +369,4 @@ function junior (rider) {
 function formatTime (time) {
   let formattedTime = time.split(':').length === 3 ? time : '0:' + (time || '00:00')
   return formattedTime === '0:00:00' ? '' : formattedTime
-}
-
-/* eslint no-useless-escape: "off" */
-function slugify (text) {
-  return text.toString().toLowerCase()
-    .replace(/\s+/g, '-') // Replace spaces with -
-    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
-    .replace(/\-\-+/g, '-') // Replace multiple - with single -
-    .replace(/^-+/, '') // Trim - from start of text
-    .replace(/-+$/, '') // Trim - from end of text
 }
