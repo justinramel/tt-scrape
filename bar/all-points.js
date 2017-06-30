@@ -326,7 +326,9 @@ function calculatePoints (riders, event) {
       const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0].bar
       times.forEach(time => {
         let result = points.find(p => p.id === time.id)
-        result.bar = best
+        if (inBar(result, event.date)) {
+          result.bar = best
+        }
       })
     }
   })
