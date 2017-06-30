@@ -1,6 +1,7 @@
 // https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping
 const axios = require('axios')
 const cheerio = require('cheerio')
+const moment = require('moment')
 
 const clubs = [
   {id: 1, name: 'Adept Precision RT'},
@@ -12,7 +13,7 @@ const clubs = [
   {id: 7, name: 'Breeze Bikes RT'},
   {id: 8, name: 'Cestria C.C.'},
   {id: 9, name: 'Cestria Cycles RT'},
-  {id: 10, name: 'Cestria Cycles Racing Team'},
+  {id: 10, name: 'Cestria Cycles Racing Team', date: '24 March 2017'},
   {id: 11, name: 'Cramlington CC'},
   {id: 12, name: 'Derwentside CC'},
   {id: 13, name: 'Gosforth RC'},
@@ -91,7 +92,7 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           })
         }
       })
-      let points = calculatePoints(riders)
+      let points = calculatePoints(riders, event)
 
       raceResults.push({
         eventId: event.id,
@@ -275,7 +276,7 @@ function extractRiders (results) {
   return unique(riders)
 }
 
-function calculatePoints (riders) {
+function calculatePoints (riders, event) {
   let barPoints = 120
   let vetPoints = 120
   let ladyPoints = 120
@@ -283,22 +284,22 @@ function calculatePoints (riders) {
 
   let points = riders.map(rider => {
     let bar = 0
-    if (inBar(rider)) {
+    if (inBar(rider, event.date)) {
       bar = barPoints
       barPoints = barPoints - 1
     }
     let vbar = 0
-    if (vet(rider)) {
+    if (vet(rider, event.date)) {
       vbar = vetPoints
       vetPoints = vetPoints - 1
     }
     let lbar = 0
-    if (lady(rider)) {
+    if (lady(rider, event.date)) {
       lbar = ladyPoints
       ladyPoints = ladyPoints - 1
     }
     let jbar = 0
-    if (junior(rider)) {
+    if (junior(rider, event.date)) {
       jbar = juniorPoints
       juniorPoints = juniorPoints - 1
     }
@@ -350,20 +351,35 @@ function finished (race) {
   return race.position !== 'DNS' && race.position !== 'DNF'
 }
 
-function inBar (rider) {
-  return clubs.map(c => c.name).includes(rider.club) && finished(rider)
+function inBar (rider, date) {
+  return affiliated(rider.club, date) && finished(rider)
 }
 
-function vet (rider) {
-  return inBar(rider) && rider.category === 'Vet'
+function affiliated (club, date) {
+  const affiliatedClub = clubs.find(c => c.name === club)
+  if (affiliatedClub) {
+    if (affiliatedClub.date) {
+      const raceDate = moment(date, 'DD MMMM YYYY', true)
+      const affiliatedDate = moment(affiliatedClub.date, 'DD MMMM YYYY', true)
+      return raceDate.isAfter(affiliatedDate)
+    } else {
+      return true
+    }
+  } else {
+    return false
+  }
 }
 
-function lady (rider) {
-  return inBar(rider) && rider.sex === 'Female'
+function vet (rider, date) {
+  return inBar(rider, date) && rider.category === 'Vet'
 }
 
-function junior (rider) {
-  return inBar(rider) && (rider.category === 'Junior' || rider.category === 'Juvenile')
+function lady (rider, date) {
+  return inBar(rider, date) && rider.sex === 'Female'
+}
+
+function junior (rider, date) {
+  return inBar(rider, date) && (rider.category === 'Junior' || rider.category === 'Juvenile')
 }
 
 function formatTime (time) {
