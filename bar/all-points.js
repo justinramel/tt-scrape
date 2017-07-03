@@ -74,6 +74,8 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       let riders = extractRiders(results)
       if (riders.length === 0 && event.provisional) {
         riders = require(`./provisional-points/${event.id}.json`)
+      } else {
+        event.provisional = false
       }
 
       riders.forEach(rider => {
