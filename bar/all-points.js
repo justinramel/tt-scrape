@@ -158,26 +158,6 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
       })
     })
 
-    let header = `pos, name, club, total, short, medium, long`
-    events.forEach(event => {
-      header = header + `, ${event.course}`
-    })
-    console.log(header)
-    let position = 1
-    const riderAffiliated = rider => affiliated(rider, '01 January 2017')
-    barResults = barResults.filter(riderAffiliated)
-    barResults.sort((a, b) => b.totals.grand - a.totals.grand).forEach(result => {
-      result.inBar = true
-      result.position = position++
-      let data = `${result.position}, ${result.name}, ${result.club}, ${result.totals.grand}, ${result.totals.short}, ${result.totals.medium}, ${result.totals.long}`
-      events.forEach(event => {
-        let riderEvent = result.races.find(x => x.eventId === event.id)
-        let barPoints = riderEvent ? riderEvent.bar : 0
-        data = data + `, ${barPoints}`
-      })
-      console.log(data)
-    })
-
     allRiders.forEach(rider => {
       rider.inBar = affiliated(rider, '31 December 2017')
     })
@@ -361,20 +341,36 @@ function calculatePoints (riders, event) {
 }
 
 function calculateVetTimes (vets, event) {
+  console.log(event.course, event.name, event.distance)
+  console.log('================================================================')
   vets.forEach(r => {
     let rider = riderAges.find(ra => ra.id === r.id)
     if (!rider.age) {
-        console.log(event.name, event.course, event.date)
-        console.log(rider.name, rider.club)
-        throw 'missing age'
+        // console.log(event.name, event.course, event.date)
+        // console.log(rider.name, rider.club)
+        rider.age = '40'
+        // throw 'missing age'
     }
     r.age = rider.age
     const standard = standards[Math.round(event.distance)].find(s => s.Age === r.age)
-    console.log(standards[Math.round(event.distance)][0].Age, r.age)
     const key = r.sex === 'Male' ? 'Men' : 'Women'
     r.standard = standard[key]
-    console.dir(r)
+    r.onStandard = onStandard(r.time, r.standard)
   })
+  vets.sort(sortOnStandard).forEach(r => console.log(r.name, r.sex, r.time, r.standard, r.onStandard))
+}
+
+function sortOnStandard (a, b) {
+  const da = new Date(`Wed Apr 26 2017 ${a.onStandard} GMT+0100 (BST)`)
+  const db = new Date(`Wed Apr 26 2017 ${b.onStandard} GMT+0100 (BST)`)
+  return da - db
+}
+
+function onStandard (time, standard) {
+  const dateTime = moment(`01 January 2017 ${time}`, 'DD MMMM YYYY H:mm:ss', true)
+  const dateStandard = moment(`01 January 2017 ${standard}`, 'DD MMMM YYYY H:mm:ss', true)
+  const onStand = moment.utc(dateTime.diff(dateStandard)).format('HH:mm:ss')
+  return onStand
 }
 
 function groupBy (list, keyGetter) {

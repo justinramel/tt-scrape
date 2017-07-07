@@ -1257,6 +1257,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Cramlington CC",
+  "age": "51",
   "inBar": true
 }, {
   "id": "16388",
@@ -1271,6 +1272,7 @@
   "sex": "Female",
   "category": "Vet",
   "club": "Cramlington CC",
+  "age": "47",
   "inBar": true
 }, {
   "id": "2528",
@@ -1373,6 +1375,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Ryton Tri Club",
+  "age": "57",
   "inBar": true
 }, {
   "id": "692",
@@ -1519,6 +1522,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Muckle Cycle Club",
+  "age": "42",
   "inBar": true
 }, {
   "id": "16796",
@@ -1555,6 +1559,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Derwentside CC",
+  "age": "44",
   "inBar": true
 }, {
   "id": "18225",
@@ -1562,6 +1567,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Blaydon CC",
+  "age": "40",
   "inBar": true
 }, {
   "id": "6215",
@@ -2236,6 +2242,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "North Tyneside Riders CC",
+  "age": "43",
   "inBar": true
 }, {
   "id": "826",
@@ -2417,6 +2424,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Cramlington CC",
+  "age": "43",
   "inBar": true
 }, {
   "id": "2311",
@@ -2647,6 +2655,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Cestria C.C.",
+  "age": "74",
   "inBar": true
 }, {
   "id": "5885",
@@ -2781,6 +2790,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "South Shields Velo Cycling Club",
+  "age": "47",
   "inBar": true
 }, {
   "id": "3955",
@@ -2802,6 +2812,7 @@
   "sex": "Female",
   "category": "Vet",
   "club": "Allen Valley Velo",
+  "age": "52",
   "inBar": true
 }, {
   "id": "5313",
