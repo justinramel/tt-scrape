@@ -61,6 +61,8 @@ const events = [
   { id: '15741', name: '(B) Tyneside Vagabonds Cc (N&Dca Champs)(Cheques To M Reed)', course: 'M100/20', distance: 100, fee: 10.00, date: '13 August 2017', length: 'long', closes: '01 August 2017' },
   { id: '15766', name: 'Cramlington Cc', course: 'M21', distance: 21, fee: 8.50, date: '19 August 2017', length: 'medium', closes: '08 August 2017' }
 ]
+const riderAges = require('./riders.json')
+const standards = require('./standards.json')
 
 let barResults = []
 let allRiders = []
@@ -293,6 +295,9 @@ function calculatePoints (riders, event) {
   let ladyPoints = 120
   let juniorPoints = 120
 
+  let vets = riders.filter(r => vet(r, event.date))
+  calculateVetTimes(vets, event)
+
   let points = riders.map(rider => {
     let bar = 0
     if (inBar(rider, event.date)) {
@@ -353,6 +358,23 @@ function calculatePoints (riders, event) {
     }
   })
   return points
+}
+
+function calculateVetTimes (vets, event) {
+  vets.forEach(r => {
+    let rider = riderAges.find(ra => ra.id === r.id)
+    if (!rider.age) {
+        console.log(event.name, event.course, event.date)
+        console.log(rider.name, rider.club)
+        throw 'missing age'
+    }
+    r.age = rider.age
+    const standard = standards[Math.round(event.distance)].find(s => s.Age === r.age)
+    console.log(standards[Math.round(event.distance)][0].Age, r.age)
+    const key = r.sex === 'Male' ? 'Men' : 'Women'
+    r.standard = standard[key]
+    console.dir(r)
+  })
 }
 
 function groupBy (list, keyGetter) {
