@@ -117,7 +117,9 @@ axios.all(events.map(event => axios.get(`https://www.cyclingtimetrials.org.uk/ra
           category: rider.category,
           club: rider.club,
           time: rider.time,
-          speed: rider.speed
+          speed: rider.speed,
+          standard: rider.standard,
+          onStandard: rider.onStandard
         }))
       })
 
@@ -170,16 +172,16 @@ function writeToJSON () {
 
   var fs = require('fs')
   fs.writeFile('../../tt-bar/src/data/events.json', JSON.stringify(events, null, 2), function (err) {
-    console.log(err)
+    if (err) console.log(err)
   })
   fs.writeFile('../../tt-bar/src/data/riders.json', JSON.stringify(allRiders, null, 2), function (err) {
-    console.log(err)
+    if (err) console.log(err)
   })
   fs.writeFile('../../tt-bar/src/data/results.json', JSON.stringify(raceResults, null, 2), function (err) {
-    console.log(err)
+    if (err) console.log(err)
   })
   fs.writeFile('../../tt-bar/src/data/clubs.json', JSON.stringify(clubs, null, 2), function (err) {
-    console.log(err)
+    if (err) console.log(err)
   })
 }
 
@@ -271,7 +273,6 @@ function extractRiders (results) {
 
 function calculatePoints (riders, event) {
   let barPoints = 120
-  let vetPoints = 120
   let ladyPoints = 120
   let juniorPoints = 120
 
@@ -284,10 +285,8 @@ function calculatePoints (riders, event) {
       bar = barPoints
       barPoints = barPoints - 1
     }
-    let vbar = 0
     if (vet(rider, event.date)) {
-      vbar = vetPoints
-      vetPoints = vetPoints - 1
+      rider = vets.find(v => v.id === rider.id)
     }
     let lbar = 0
     if (lady(rider, event.date)) {
@@ -308,8 +307,10 @@ function calculatePoints (riders, event) {
       club: rider.club,
       time: rider.time,
       speed: rider.speed,
+      standard: rider.standard || '',
+      onStandard: rider.onStandard || '',
       bar,
-      vbar,
+      vbar: rider.vbar || 0,
       lbar,
       jbar
     }
@@ -341,14 +342,14 @@ function calculatePoints (riders, event) {
 }
 
 function calculateVetTimes (vets, event) {
-  console.log(event.course, event.name, event.distance)
-  console.log('================================================================')
+  let vetPoints = 120
+
   vets.forEach(r => {
     let rider = riderAges.find(ra => ra.id === r.id)
     if (!rider.age) {
         // console.log(event.name, event.course, event.date)
         // console.log(rider.name, rider.club)
-        rider.age = '40'
+      rider.age = '40'
         // throw 'missing age'
     }
     r.age = rider.age
@@ -357,20 +358,51 @@ function calculateVetTimes (vets, event) {
     r.standard = standard[key]
     r.onStandard = onStandard(r.time, r.standard)
   })
-  vets.sort(sortOnStandard).forEach(r => console.log(r.name, r.sex, r.time, r.standard, r.onStandard))
+  vets.sort(sortOnStandard).forEach(r => (r.vbar = vetPoints--))
 }
 
 function sortOnStandard (a, b) {
-  const da = new Date(`Wed Apr 26 2017 ${a.onStandard} GMT+0100 (BST)`)
-  const db = new Date(`Wed Apr 26 2017 ${b.onStandard} GMT+0100 (BST)`)
-  return da - db
+  return inSeconds(a.onStandard) - inSeconds(b.onStandard)
 }
 
 function onStandard (time, standard) {
-  const dateTime = moment(`01 January 2017 ${time}`, 'DD MMMM YYYY H:mm:ss', true)
-  const dateStandard = moment(`01 January 2017 ${standard}`, 'DD MMMM YYYY H:mm:ss', true)
-  const onStand = moment.utc(dateTime.diff(dateStandard)).format('HH:mm:ss')
-  return onStand
+  return toHHMMSS(inSeconds(time) - inSeconds(standard))
+}
+
+function inSeconds (time) {
+  let neg = false
+  if (time[0] === '-') {
+    neg = true
+    time = time.substr(1)
+  }
+  const splitTime = time.split(':')
+  const hoursInSeconds = Number(splitTime[0]) * 60 * 60
+  const minutesInSeconds = Number(splitTime[1]) * 60
+  const seconds = Number(splitTime[2])
+  const total = hoursInSeconds + minutesInSeconds + seconds
+  return neg ? -total : total
+}
+
+function toHHMMSS (time) {
+  let neg = ''
+  if (time < 0) {
+    neg = '-'
+    time = Math.abs(time)
+  }
+  let hours = Math.floor(time / 3600)
+  let minutes = Math.floor((time - (hours * 3600)) / 60)
+  let seconds = time - (hours * 3600) - (minutes * 60)
+
+  if (hours < 10) {
+    hours = '0' + hours
+  }
+  if (minutes < 10) {
+    minutes = '0' + minutes
+  }
+  if (seconds < 10) {
+    seconds = '0' + seconds
+  }
+  return `${neg}${hours}:${minutes}:${seconds}`
 }
 
 function groupBy (list, keyGetter) {
