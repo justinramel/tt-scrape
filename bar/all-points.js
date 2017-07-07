@@ -317,7 +317,7 @@ function calculatePoints (riders, event) {
   })
 
   // Fix time draws
-  let grouped = groupBy(points, point => point.time)
+  const grouped = groupBy(points, point => point.time)
   grouped.forEach(times => {
     if (times.length > 1) {
       const best = times.sort((a, b) => b.bar - a.bar).slice(0, 1)[0]
@@ -326,15 +326,24 @@ function calculatePoints (riders, event) {
         if (inBar(result, event.date)) {
           result.bar = best.bar
         }
-        if (vet(result, event.date)) {
-          result.vbar = best.vbar
-        }
         if (lady(result, event.date)) {
           result.lbar = best.lbar
         }
         if (junior(result, event.date)) {
           result.jbar = best.jbar
         }
+      })
+    }
+  })
+
+  // Fix time draws
+  let groupedVBar = groupBy(points, point => point.onStandard)
+  groupedVBar.forEach(times => {
+    if (times.length > 1) {
+      const best = times.sort((a, b) => b.vbar - a.vbar).slice(0, 1)[0]
+      times.forEach(time => {
+        let result = points.find(p => p.id === time.id)
+        result.vbar = best.vbar
       })
     }
   })
