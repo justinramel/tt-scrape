@@ -42,7 +42,7 @@ axios.all(input.map(result => {
       result = input.find(r => r.Name.toLowerCase() === rider.name.toLowerCase())
     }
     if (!result) {
-      console.error(rider)
+      console.error(rider, id, response.request.path)
       throw 'rider not found in results'
     }
     const fullResult = {

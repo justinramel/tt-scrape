@@ -1,0 +1,652 @@
+[
+  {
+    "id": "65",
+    "position": "1",
+    "name": "Carl Donaldson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "GS Metro",
+    "time": "00:53:28",
+    "speed": ""
+  },
+  {
+    "id": "3625",
+    "position": "2",
+    "name": "Adam Wild",
+    "sex": "Male",
+    "category": "Espoir",
+    "club": "Tyneside Vagabonds CC",
+    "time": "00:56:12",
+    "speed": ""
+  },
+  {
+    "id": "16809",
+    "position": "3",
+    "name": "Collin Humphrey",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "00:56:16",
+    "speed": ""
+  },
+  {
+    "id": "6034",
+    "position": "4",
+    "name": "Harry Walker",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Team Swift",
+    "time": "00:57:38",
+    "speed": ""
+  },
+  {
+    "id": "1033",
+    "position": "5",
+    "name": "Steven Craggs",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "00:57:52",
+    "speed": ""
+  },
+  {
+    "id": "4367",
+    "position": "6",
+    "name": "chris mather",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "00:58:56",
+    "speed": ""
+  },
+  {
+    "id": "19343",
+    "position": "7",
+    "name": "Neil Pendrich",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Edinburgh Road Club",
+    "time": "00:59:07",
+    "speed": ""
+  },
+  {
+    "id": "9761",
+    "position": "8",
+    "name": "Dan Meggison",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Barnesbury CC",
+    "time": "00:59:28",
+    "speed": ""
+  },
+  {
+    "id": "9684",
+    "position": "9",
+    "name": "darren williamson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "00:59:33",
+    "speed": ""
+  },
+  {
+    "id": "102",
+    "position": "10",
+    "name": "Adam Jarps",
+    "sex": "Male",
+    "category": "Junior",
+    "club": "Manilla Cycling",
+    "time": "00:59:54",
+    "speed": ""
+  },
+  {
+    "id": "531",
+    "position": "11",
+    "name": "Elliot Gowland",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Team Bottrill / HSS Hire",
+    "time": "00:59:59",
+    "speed": ""
+  },
+  {
+    "id": "705",
+    "position": "12",
+    "name": "Nev Martin",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "GS Metro",
+    "time": "00:59:59",
+    "speed": ""
+  },
+  {
+    "id": "6436",
+    "position": "13",
+    "name": "Ross Walton",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "01:00:03",
+    "speed": ""
+  },
+  {
+    "id": "15903",
+    "position": "14",
+    "name": "Gregory Bassam",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "London Phoenix CC",
+    "time": "01:00:22",
+    "speed": ""
+  },
+  {
+    "id": "7993",
+    "position": "15",
+    "name": "Simon Gibbs",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Tyneside Vagabonds CC",
+    "time": "01:00:47",
+    "speed": ""
+  },
+  {
+    "id": "3088",
+    "position": "16",
+    "name": "Nicholas Stevenson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "01:00:56",
+    "speed": ""
+  },
+  {
+    "id": "15251",
+    "position": "17",
+    "name": "Stephen Knight",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Ryton Tri Club",
+    "time": "01:00:59",
+    "speed": ""
+  },
+  {
+    "id": "1170",
+    "position": "18",
+    "name": "Michael Todd",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "01:01:01",
+    "speed": ""
+  },
+  {
+    "id": "866",
+    "position": "19",
+    "name": "Colin Atkinson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "01:01:09",
+    "speed": ""
+  },
+  {
+    "id": "3037",
+    "position": "20",
+    "name": "Nick Badcock",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Allen Valley Velo",
+    "time": "01:01:12",
+    "speed": ""
+  },
+  {
+    "id": "19395",
+    "position": "21",
+    "name": "Sam Johnson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Wearside Triathlon",
+    "time": "01:01:19",
+    "speed": ""
+  },
+  {
+    "id": "1698",
+    "position": "22",
+    "name": "Daniel Dixon",
+    "sex": "Male",
+    "category": "Juvenile",
+    "club": "Gosforth RC",
+    "time": "01:01:39",
+    "speed": ""
+  },
+  {
+    "id": "446",
+    "position": "23",
+    "name": "Paul Hague",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:02:16",
+    "speed": ""
+  },
+  {
+    "id": "6029",
+    "position": "24",
+    "name": "Peter Herdman",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "01:02:21",
+    "speed": ""
+  },
+  {
+    "id": "3648",
+    "position": "25",
+    "name": "michael openshaw",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cestria C.C.",
+    "time": "01:02:43",
+    "speed": ""
+  },
+  {
+    "id": "2041",
+    "position": "26",
+    "name": "Philip KENNELL",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:02:52",
+    "speed": ""
+  },
+  {
+    "id": "16527",
+    "position": "27",
+    "name": "adam wilson",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Cramlington CC",
+    "time": "01:03:01",
+    "speed": ""
+  },
+  {
+    "id": "560",
+    "position": "28",
+    "name": "Craig Fenwick",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Team Swift",
+    "time": "01:03:19",
+    "speed": ""
+  },
+  {
+    "id": "775",
+    "position": "29",
+    "name": "Venda Louise Pollock",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Breeze Bikes RT",
+    "time": "01:03:35",
+    "speed": ""
+  },
+  {
+    "id": "5169",
+    "position": "30",
+    "name": "Tim Nichol",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Derwentside CC",
+    "time": "01:03:43",
+    "speed": ""
+  },
+  {
+    "id": "15799",
+    "position": "31",
+    "name": "Mark Ambury",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cramlington CC",
+    "time": "01:03:44",
+    "speed": ""
+  },
+  {
+    "id": "8785",
+    "position": "32",
+    "name": "Jamie Ruddell",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Houghton CC",
+    "time": "01:03:50",
+    "speed": ""
+  },
+  {
+    "id": "6666",
+    "position": "33",
+    "name": "David Swainson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "01:04:49",
+    "speed": ""
+  },
+  {
+    "id": "1636",
+    "position": "34",
+    "name": "patrick deane",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Tyneside Vagabonds CC",
+    "time": "01:05:32",
+    "speed": ""
+  },
+  {
+    "id": "3585",
+    "position": "35",
+    "name": "David Milton",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Muckle Cycle Club",
+    "time": "01:06:18",
+    "speed": ""
+  },
+  {
+    "id": "923",
+    "position": "36",
+    "name": "Neil Parkin",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "01:06:50",
+    "speed": ""
+  },
+  {
+    "id": "330",
+    "position": "37",
+    "name": "David Pritchard",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Kennoway Road Club",
+    "time": "01:07:10",
+    "speed": ""
+  },
+  {
+    "id": "13",
+    "position": "38",
+    "name": "Paul Wright",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "01:07:25",
+    "speed": ""
+  },
+  {
+    "id": "1171",
+    "position": "39",
+    "name": "Peter Mcewan",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Breeze Bikes RT",
+    "time": "01:07:30",
+    "speed": ""
+  },
+  {
+    "id": "686",
+    "position": "40",
+    "name": "Sebastian Stockbridge",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "01:07:37",
+    "speed": ""
+  },
+  {
+    "id": "7727",
+    "position": "41",
+    "name": "Natalie Batey",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Tyne & Wear Fire & Rescue Service CC",
+    "time": "01:08:01",
+    "speed": ""
+  },
+  {
+    "id": "7156",
+    "position": "42",
+    "name": "Jennifer Batey",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "EDCO Continental",
+    "time": "01:08:01",
+    "speed": ""
+  },
+  {
+    "id": "8863",
+    "position": "43",
+    "name": "Paul Robson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Wearside Triathlon",
+    "time": "01:08:09",
+    "speed": ""
+  },
+  {
+    "id": "3838",
+    "position": "44",
+    "name": "Gemma Hutchins",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Blaydon CC",
+    "time": "01:08:24",
+    "speed": ""
+  },
+  {
+    "id": "8379",
+    "position": "45",
+    "name": "martin heardman",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:08:32",
+    "speed": ""
+  },
+  {
+    "id": "8831",
+    "position": "46",
+    "name": "Paul Lucas",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Houghton CC",
+    "time": "01:10:20",
+    "speed": ""
+  },
+  {
+    "id": "6112",
+    "position": "47",
+    "name": "Raymond Bell",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Liverpool Braveheart Bicycle Club",
+    "time": "01:10:44",
+    "speed": ""
+  },
+  {
+    "id": "7481",
+    "position": "48",
+    "name": "Gavin Husband",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:11:03",
+    "speed": ""
+  },
+  {
+    "id": "16666",
+    "position": "49",
+    "name": "Keith Sibbald",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Cramlington CC",
+    "time": "01:11:51",
+    "speed": ""
+  },
+  {
+    "id": "15609",
+    "position": "50",
+    "name": "David Cole",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "01:12:00",
+    "speed": ""
+  },
+  {
+    "id": "16321",
+    "position": "51",
+    "name": "Graeme Dawson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:13:04",
+    "speed": ""
+  },
+  {
+    "id": "15865",
+    "position": "52",
+    "name": "david Linsley",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Tyne & Wear Fire & Rescue Service CC",
+    "time": "01:13:11",
+    "speed": ""
+  },
+  {
+    "id": "6896",
+    "position": "53",
+    "name": "peter macklam",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Leeds St Christophers",
+    "time": "01:13:21",
+    "speed": ""
+  },
+  {
+    "id": "391",
+    "position": "54",
+    "name": "Richard Cleathero",
+    "sex": "Male",
+    "category": "Senior",
+    "club": "North Racing",
+    "time": "01:13:59",
+    "speed": ""
+  },
+  {
+    "id": "1428",
+    "position": "55",
+    "name": "Stephen Cummings",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "01:14:16",
+    "speed": ""
+  },
+  {
+    "id": "7500",
+    "position": "56",
+    "name": "Clive Rae",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:14:29",
+    "speed": ""
+  },
+  {
+    "id": "10722",
+    "position": "57",
+    "name": "Jen McMahon",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "Muckle Cycle Club",
+    "time": "01:14:42",
+    "speed": ""
+  },
+  {
+    "id": "1408",
+    "position": "58",
+    "name": "Jennifer Holland",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Tyne Tri",
+    "time": "01:14:45",
+    "speed": ""
+  },
+  {
+    "id": "3953",
+    "position": "59",
+    "name": "Hannah Baker",
+    "sex": "Female",
+    "category": "Senior",
+    "club": "North Tyneside Riders CC",
+    "time": "01:14:51",
+    "speed": ""
+  },
+  {
+    "id": "6675",
+    "position": "60",
+    "name": "Ian Carter",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Gosforth RC",
+    "time": "01:16:23",
+    "speed": ""
+  },
+  {
+    "id": "964",
+    "position": "61",
+    "name": "Paul Mitchell",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC",
+    "time": "01:16:47",
+    "speed": ""
+  },
+  {
+    "id": "1799",
+    "position": "62",
+    "name": "Carrie Brookes",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "North Tyneside Riders CC",
+    "time": "01:17:09",
+    "speed": ""
+  },
+  {
+    "id": "19288",
+    "position": "63",
+    "name": "Ronnie Thompson",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC",
+    "time": "01:18:01",
+    "speed": ""
+  },
+  {
+    "id": "19158",
+    "position": "64",
+    "name": "Caroline Golightly",
+    "sex": "Female",
+    "category": "Vet",
+    "club": "Sunderland Clarion",
+    "time": "01:21:36",
+    "speed": ""
+  },
+  {
+    "id": "19443",
+    "position": "65",
+    "name": "Gareth Davies",
+    "sex": "Male",
+    "category": "Vet",
+    "club": "Port Talbot Whs CC",
+    "time": "01:34:58",
+    "speed": ""
+  }
+]

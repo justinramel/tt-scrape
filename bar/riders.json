@@ -3017,6 +3017,54 @@
   "age": "46",
   "inBar": true
 }, {
+  "id": "7481",
+  "name": "Gavin Husband",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Gosforth RC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "16321",
+  "name": "Graeme Dawson",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Gosforth RC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "7500",
+  "name": "Clive Rae",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Gosforth RC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "1799",
+  "name": "Carrie Brookes",
+  "sex": "Female",
+  "category": "Vet",
+  "club": "North Tyneside Riders CC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "19288",
+  "name": "Ronnie Thompson",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Derwentside CC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "19158",
+  "name": "Caroline Golightly",
+  "sex": "Female",
+  "category": "Vet",
+  "club": "Sunderland Clarion",
+  "age": "40",
+  "inBar": true
+}, {
   "id": "2727",
   "name": "wayne coates",
   "sex": "Male",
