@@ -1265,6 +1265,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
+  "age": "48",
   "inBar": true
 }, {
   "id": "6730",
@@ -1725,7 +1726,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
-  "age": "41",
+  "age": "58",
   "inBar": true
 }, {
   "id": "4720",
@@ -1839,6 +1840,7 @@
   "sex": "Female",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
+  "age": "55",
   "inBar": true
 }, {
   "id": "1561",
@@ -2386,6 +2388,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
+  "age": "47",
   "inBar": true
 }, {
   "id": "446",
@@ -2490,6 +2493,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
+  "age": "53",
   "inBar": true
 }, {
   "id": "6144",
@@ -2890,6 +2894,7 @@
   "sex": "Male",
   "category": "Vet",
   "club": "Alnwick Cycling Club",
+  "age": "40",
   "inBar": true
 }, {
   "id": "690",
