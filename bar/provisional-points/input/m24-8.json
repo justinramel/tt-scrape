@@ -1,367 +1,372 @@
-[
- {
-   "Position": "1",
-   "Name": "Niall Paterson",
-   "Time": "1:10:10"
- },
- {
-   "Position": "2",
-   "Name": "Karl Juan Denton",
-   "Time": "1:12:25"
- },
- {
-   "Position": "3",
-   "Name": "Nick Badcock",
-   "Time": "1:13:20"
- },
- {
-   "Position": "4",
-   "Name": "Jamie Johnson",
-   "Time": "1:13:30"
- },
- {
-   "Position": "5",
-   "Name": "Ross Gray",
-   "Time": "1:13:33"
- },
- {
-   "Position": "6",
-   "Name": "Colin Atkinson",
-   "Time": "1:13:42"
- },
- {
-   "Position": "7",
-   "Name": "Collin Humphrey",
-   "Time": "1:13:47"
- },
- {
-   "Position": "8",
-   "Name": "Hedley Fletcher",
-   "Time": "1:14:51"
- },
- {
-   "Position": "9",
-   "Name": "Paul Braithwaite",
-   "Time": "1:16:05"
- },
- {
-   "Position": "10",
-   "Name": "Steven Craggs",
-   "Time": "1:16:07"
- },
- {
-   "Position": "11",
-   "Name": "Nick Jones",
-   "Time": "1:16:31"
- },
- {
-   "Position": "12",
-   "Name": "Dan Small",
-   "Time": "1:17:59"
- },
- {
-   "Position": "13",
-   "Name": "Michael Todd",
-   "Time": "1:18:02"
- },
- {
-   "Position": "14",
-   "Name": "Chris Mather",
-   "Time": "1:19:03"
- },
- {
-   "Position": "15",
-   "Name": "Robert Scandle",
-   "Time": "1:19:17"
- },
- {
-   "Position": "16",
-   "Name": "Craig Deacon",
-   "Time": "1:19:28"
- },
- {
-   "Position": "17",
-   "Name": "Christopher Beaty",
-   "Time": "1:19:48"
- },
- {
-   "Position": "18",
-   "Name": "Craig Fenwick",
-   "Time": "1:21:26"
- },
- {
-   "Position": "19",
-   "Name": "Roy Flanagan",
-   "Time": "1:21:30"
- },
- {
-   "Position": "20",
-   "Name": "Neil Withington",
-   "Time": "1:22:03"
- },
- {
-   "Position": "21",
-   "Name": "Mal Gray",
-   "Time": "1:22:28"
- },
- {
-   "Position": "22",
-   "Name": "Fiona Burnie",
-   "Time": "1:23:10"
- },
- {
-   "Position": "23",
-   "Name": "Jeremy Prodger",
-   "Time": "1:23:22"
- },
- {
-   "Position": "24",
-   "Name": "Roy Pattinson",
-   "Time": "1:23:36"
- },
- {
-   "Position": "25",
-   "Name": "Ian Gallon",
-   "Time": "1:23:47"
- },
- {
-   "Position": "26",
-   "Name": "Andrew Ibberson",
-   "Time": "1:24:14"
- },
- {
-   "Position": "27",
-   "Name": "Tim Nichol",
-   "Time": "1:24:25"
- },
- {
-   "Position": "28",
-   "Name": "Dougan Collins",
-   "Time": "1:24:38"
- },
- {
-   "Position": "29",
-   "Name": "Bryan Laycock",
-   "Time": "1:24:40"
- },
- {
-   "Position": "30",
-   "Name": "Dan Pons",
-   "Time": "1:24:42"
- },
- {
-   "Position": "31",
-   "Name": "David Goodwin",
-   "Time": "1:25:18"
- },
- {
-   "Position": "32",
-   "Name": "Tom Guy",
-   "Time": "1:25:19"
- },
- {
-   "Position": "33",
-   "Name": "Sebastian Stockbridge",
-   "Time": "1:25:26"
- },
- {
-   "Position": "34",
-   "Name": "Christian Roberts",
-   "Time": "1:25:37"
- },
- {
-   "Position": "35",
-   "Name": "Lee Statham",
-   "Time": "1:25:52"
- },
- {
-   "Position": "36",
-   "Name": "David Swainson",
-   "Time": "1:26:45"
- },
- {
-   "Position": "37",
-   "Name": "John Paul Herron",
-   "Time": "1:26:53"
- },
- {
-   "Position": "38",
-   "Name": "Ross Strachan",
-   "Time": "1:27:18"
- },
- {
-   "Position": "39",
-   "Name": "Sue Rigby",
-   "Time": "1:28:10"
- },
- {
-   "Position": "40",
-   "Name": "David Hordon",
-   "Time": "1:28:47"
- },
- {
-   "Position": "41",
-   "Name": "BRENDON JACKSON",
-   "Time": "1:28:53"
- },
- {
-   "Position": "42",
-   "Name": "Ivan Newton",
-   "Time": "1:29:19"
- },
- {
-   "Position": "43",
-   "Name": "Malcolm West",
-   "Time": "1:30:12"
- },
- {
-   "Position": "44",
-   "Name": "Keith Sibbald",
-   "Time": "1:30:42"
- },
- {
-   "Position": "45",
-   "Name": "Michael Woodhouse",
-   "Time": "1:31:42"
- },
- {
-   "Position": "46",
-   "Name": "Melanie Annable",
-   "Time": "1:34:15"
- },
- {
-   "Position": "47",
-   "Name": "Daniel Alpin",
-   "Time": "1:35:16"
- },
- {
-   "Position": "48",
-   "Name": "Louise Hamilton",
-   "Time": "1:35:55"
- },
- {
-   "Position": "49",
-   "Name": "Emma Alpin",
-   "Time": "1:37:00"
- },
- {
-   "Position": "50",
-   "Name": "Claire Jackson",
-   "Time": "1:37:03"
- },
- {
-   "Position": "51",
-   "Name": "Helen Richardson",
-   "Time": "1:38:50"
- },
- {
-   "Position": "52",
-   "Name": "Paul Morrison",
-   "Time": "1:38:56"
- },
- {
-   "Position": "53",
-   "Name": "Dean Taylor",
-   "Time": "1:39:13"
- },
- {
-   "Position": "54",
-   "Name": "Sheena Harrison",
-   "Time": "1:41:04"
- },
- {
-   "Position": "55",
-   "Name": "Stewart Beaty",
-   "Time": "1:49:12"
- },
- {
-   "Position": "DNF",
-   "Name": "Craig Bell",
-   "Time": ""
- },
- {
-   "Position": "DNF",
-   "Name": "Archie Irving",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Alex Fairer",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Joanne Allan",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Molly Horsley Frost",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Peter McGlynn",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Patrick Pennefather",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Justin Jeffries",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Charlie Loizou",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Andy Haw",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Simon Gibbs",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Ross Walton",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Antonio Bachini",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Justin Ramel",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Jon Sturman",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "David Pritchard",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Christian Henderson",
-   "Time": ""
- },
- {
-   "Position": "DNS",
-   "Name": "Carl Donaldson",
-   "Time": ""
- }
+[{
+    "Position": "1",
+    "Name": "Niall Paterson",
+    "Time": "1:10:10"
+  },
+  {
+    "Position": "2",
+    "Name": "Karl Juan Denton",
+    "Time": "1:12:25"
+  },
+  {
+    "Position": "3",
+    "Name": "Nick Badcock",
+    "Time": "1:13:20"
+  },
+  {
+    "Position": "4",
+    "Name": "Jamie Johnson",
+    "Time": "1:13:30"
+  },
+  {
+    "Position": "5",
+    "Name": "Ross Gray",
+    "Time": "1:13:33",
+    "id": "7048",
+    "name": "Ross Gray",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Prima Team Racing",
+    "inBar": "false"
+  },
+  {
+    "Position": "6",
+    "Name": "Colin Atkinson",
+    "Time": "1:13:42"
+  },
+  {
+    "Position": "7",
+    "Name": "Collin Humphrey",
+    "Time": "1:13:47"
+  },
+  {
+    "Position": "8",
+    "Name": "Hedley Fletcher",
+    "Time": "1:14:51"
+  },
+  {
+    "Position": "9",
+    "Name": "Paul Braithwaite",
+    "Time": "1:16:05"
+  },
+  {
+    "Position": "10",
+    "Name": "Steven Craggs",
+    "Time": "1:16:07"
+  },
+  {
+    "Position": "11",
+    "Name": "Nick Jones",
+    "Time": "1:16:31"
+  },
+  {
+    "Position": "12",
+    "Name": "Dan Small",
+    "Time": "1:17:59"
+  },
+  {
+    "Position": "13",
+    "Name": "Michael Todd",
+    "Time": "1:18:02"
+  },
+  {
+    "Position": "14",
+    "Name": "Chris Mather",
+    "Time": "1:19:03"
+  },
+  {
+    "Position": "15",
+    "Name": "Robert Scandle",
+    "Time": "1:19:17"
+  },
+  {
+    "Position": "16",
+    "Name": "Craig Deacon",
+    "Time": "1:19:28"
+  },
+  {
+    "Position": "17",
+    "Name": "Christopher Beaty",
+    "Time": "1:19:48"
+  },
+  {
+    "Position": "18",
+    "Name": "Craig Fenwick",
+    "Time": "1:21:26"
+  },
+  {
+    "Position": "19",
+    "Name": "Roy Flanagan",
+    "Time": "1:21:30"
+  },
+  {
+    "Position": "20",
+    "Name": "Neil Withington",
+    "Time": "1:22:03"
+  },
+  {
+    "Position": "21",
+    "Name": "Mal Gray",
+    "Time": "1:22:28"
+  },
+  {
+    "Position": "22",
+    "Name": "Fiona Burnie",
+    "Time": "1:23:10"
+  },
+  {
+    "Position": "23",
+    "Name": "Jeremy Prodger",
+    "Time": "1:23:22"
+  },
+  {
+    "Position": "24",
+    "Name": "Roy Pattinson",
+    "Time": "1:23:36"
+  },
+  {
+    "Position": "25",
+    "Name": "Ian Gallon",
+    "Time": "1:23:47"
+  },
+  {
+    "Position": "26",
+    "Name": "Andrew Ibberson",
+    "Time": "1:24:14"
+  },
+  {
+    "Position": "27",
+    "Name": "Tim Nichol",
+    "Time": "1:24:25"
+  },
+  {
+    "Position": "28",
+    "Name": "Dougan Collins",
+    "Time": "1:24:38"
+  },
+  {
+    "Position": "29",
+    "Name": "Bryan Laycock",
+    "Time": "1:24:40"
+  },
+  {
+    "Position": "30",
+    "Name": "Dan Pons",
+    "Time": "1:24:42"
+  },
+  {
+    "Position": "31",
+    "Name": "David Goodwin",
+    "Time": "1:25:18"
+  },
+  {
+    "Position": "32",
+    "Name": "Tom Guy",
+    "Time": "1:25:19"
+  },
+  {
+    "Position": "33",
+    "Name": "Sebastian Stockbridge",
+    "Time": "1:25:26"
+  },
+  {
+    "Position": "34",
+    "Name": "Christian Roberts",
+    "Time": "1:25:37"
+  },
+  {
+    "Position": "35",
+    "Name": "Lee Statham",
+    "Time": "1:25:52"
+  },
+  {
+    "Position": "36",
+    "Name": "David Swainson",
+    "Time": "1:26:45"
+  },
+  {
+    "Position": "37",
+    "Name": "John Paul Herron",
+    "Time": "1:26:53"
+  },
+  {
+    "Position": "38",
+    "Name": "Ross Strachan",
+    "Time": "1:27:18"
+  },
+  {
+    "Position": "39",
+    "Name": "Sue Rigby",
+    "Time": "1:28:10"
+  },
+  {
+    "Position": "40",
+    "Name": "David Hordon",
+    "Time": "1:28:47"
+  },
+  {
+    "Position": "41",
+    "Name": "BRENDON JACKSON",
+    "Time": "1:28:53"
+  },
+  {
+    "Position": "42",
+    "Name": "Ivan Newton",
+    "Time": "1:29:19"
+  },
+  {
+    "Position": "43",
+    "Name": "Malcolm West",
+    "Time": "1:30:12"
+  },
+  {
+    "Position": "44",
+    "Name": "Keith Sibbald",
+    "Time": "1:30:42"
+  },
+  {
+    "Position": "45",
+    "Name": "Michael Woodhouse",
+    "Time": "1:31:42"
+  },
+  {
+    "Position": "46",
+    "Name": "Melanie Annable",
+    "Time": "1:34:15"
+  },
+  {
+    "Position": "47",
+    "Name": "Daniel Alpin",
+    "Time": "1:35:16"
+  },
+  {
+    "Position": "48",
+    "Name": "Louise Hamilton",
+    "Time": "1:35:55"
+  },
+  {
+    "Position": "49",
+    "Name": "Emma Alpin",
+    "Time": "1:37:00"
+  },
+  {
+    "Position": "50",
+    "Name": "Claire Jackson",
+    "Time": "1:37:03"
+  },
+  {
+    "Position": "51",
+    "Name": "Helen Richardson",
+    "Time": "1:38:50"
+  },
+  {
+    "Position": "52",
+    "Name": "Paul Morrison",
+    "Time": "1:38:56"
+  },
+  {
+    "Position": "53",
+    "Name": "Dean Taylor",
+    "Time": "1:39:13"
+  },
+  {
+    "Position": "54",
+    "Name": "Sheena Harrison",
+    "Time": "1:41:04"
+  },
+  {
+    "Position": "55",
+    "Name": "Stewart Beaty",
+    "Time": "1:49:12"
+  },
+  {
+    "Position": "DNF",
+    "Name": "Craig Bell",
+    "Time": ""
+  },
+  {
+    "Position": "DNF",
+    "Name": "Archie Irving",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Alex Fairer",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Joanne Allan",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Molly Horsley Frost",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Peter McGlynn",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Patrick Pennefather",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Justin Jeffries",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Charlie Loizou",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Andy Haw",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Simon Gibbs",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Ross Walton",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Antonio Bachini",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Justin Ramel",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Jon Sturman",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "David Pritchard",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Christian Henderson",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Carl Donaldson",
+    "Time": ""
+  }
 ]
