@@ -39,6 +39,9 @@ axios.all(input.map(result => {
       }
     } else {
       rider = extractRider(response)
+      if (!rider.name) {
+        throw `Rider not found ${response.request.path}`
+      }
       result = input.find(r => r.Name.toLowerCase() === rider.name.toLowerCase())
     }
     if (!result) {
@@ -69,7 +72,7 @@ axios.all(input.map(result => {
 
 function extractRider (response) {
   let $ = cheerio.load(response.data)
-  let result = {}
+  let result = null
 
   $('table tbody tr').each((index, tr) => {
     let data = $(tr).find('td').map((index, td) => $(td).text().trim()).get()

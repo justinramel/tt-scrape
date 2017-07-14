@@ -1,0 +1,436 @@
+[{
+    "Position": "1",
+    "Name": "Danny Grieves",
+    "Time": "00:19:18"
+  },
+  {
+    "Position": "2",
+    "Name": "Carl Donaldson",
+    "Time": "00:20:01"
+  },
+  {
+    "Position": "3",
+    "Name": "Keith Murray",
+    "Time": "00:20:19"
+  },
+  {
+    "Position": "4",
+    "Name": "Adam Wild",
+    "Time": "00:20:20"
+  },
+  {
+    "Position": "5",
+    "Name": "Collin Humphrey",
+    "Time": "00:20:35"
+  },
+  {
+    "Position": "6",
+    "Name": "Harry Walker",
+    "Time": "00:20:38"
+  },
+  {
+    "Position": "7",
+    "Name": "Zeb Kyffin",
+    "Time": "00:20:40"
+  },
+  {
+    "Position": "8",
+    "Name": "Phil Hall",
+    "Time": "00:20:43"
+  },
+  {
+    "Position": "9",
+    "Name": "Adam Jarps",
+    "Time": "00:20:46"
+  },
+  {
+    "Position": "10",
+    "Name": "Matt Collison",
+    "Time": "00:20:56"
+  },
+  {
+    "Position": "11",
+    "Name": "Steven Craggs",
+    "Time": "00:21:04"
+  },
+  {
+    "Position": "12",
+    "Name": "Michael Sloanes",
+    "Time": "00:21:11"
+  },
+  {
+    "Position": "13",
+    "Name": "Liam Beaty",
+    "Time": "00:21:12"
+  },
+  {
+    "Position": "14",
+    "Name": "Dan Meggison",
+    "Time": "00:21:20"
+  },
+  {
+    "Position": "15",
+    "Name": "David Beattie",
+    "Time": "00:21:22"
+  },
+  {
+    "Position": "16",
+    "Name": "Kris Whitelaw",
+    "Time": "00:21:24"
+  },
+  {
+    "Position": "17",
+    "Name": "Chris Mather",
+    "Time": "00:21:30"
+  },
+  {
+    "Position": "17",
+    "Name": "Anna Turvey",
+    "Time": "00:21:30"
+  },
+  {
+    "Position": "19",
+    "Name": "Sean Kennedy",
+    "Time": "00:21:42"
+  },
+  {
+    "Position": "20",
+    "Name": "Anthony Waterston",
+    "Time": "00:21:49"
+  },
+  {
+    "Position": "21",
+    "Name": "Darren Stow",
+    "Time": "00:21:50"
+  },
+  {
+    "Position": "22",
+    "Name": "Terry Wilkinson",
+    "Time": "00:21:52"
+  },
+  {
+    "Position": "23",
+    "Name": "Hedley Fletcher",
+    "Time": "00:21:54"
+  },
+  {
+    "Position": "24",
+    "Name": "Darren Williamson",
+    "Time": "00:21:55"
+  },
+  {
+    "Position": "25",
+    "Name": "Adam Wilson",
+    "Time": "00:21:56"
+  },
+  {
+    "Position": "26",
+    "Name": "Nev Martin",
+    "Time": "00:21:57"
+  },
+  {
+    "Position": "27",
+    "Name": "Justin Ramel",
+    "Time": "00:21:58"
+  },
+  {
+    "Position": "28",
+    "Name": "Ian Taylor",
+    "Time": "00:22:02",
+    "id": "4233",
+    "name": "Ian Taylor",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Blumilk.com"
+  },
+  {
+    "Position": "28",
+    "Name": "Michael Johnson",
+    "Time": "00:22:02"
+  },
+  {
+    "Position": "30",
+    "Name": "Nick Badcock",
+    "Time": "00:22:03"
+  },
+  {
+    "Position": "31",
+    "Name": "Stephen Knight",
+    "Time": "00:22:13"
+  },
+  {
+    "Position": "32",
+    "Name": "Daniel Dixon",
+    "Time": "00:22:14"
+  },
+  {
+    "Position": "33",
+    "Name": "John Routledge",
+    "Time": "00:22:17"
+  },
+  {
+    "Position": "34",
+    "Name": "Lewis Timmins",
+    "Time": "00:22:19"
+  },
+  {
+    "Position": "35",
+    "Name": "Kris Adlington",
+    "Time": "00:22:25"
+  },
+  {
+    "Position": "35",
+    "Name": "Thomas Hooper",
+    "Time": "00:22:25"
+  },
+  {
+    "Position": "37",
+    "Name": "Micky Mallen",
+    "Time": "00:22:29"
+  },
+  {
+    "Position": "38",
+    "Name": "Philip Kennell",
+    "Time": "00:22:30"
+  },
+  {
+    "Position": "39",
+    "Name": "Colin Humphrey",
+    "Time": "00:22:35"
+  },
+  {
+    "Position": "40",
+    "Name": "Dean Madden",
+    "Time": "00:22:38"
+  },
+  {
+    "Position": "41",
+    "Name": "Phil Watson",
+    "Time": "00:22:51"
+  },
+  {
+    "Position": "42",
+    "Name": "Wayne Coates",
+    "Time": "00:23:02"
+  },
+  {
+    "Position": "43",
+    "Name": "Paul Rider",
+    "Time": "00:23:03"
+  },
+  {
+    "Position": "43",
+    "Name": "Guillaume Zoppi",
+    "Time": "00:23:03"
+  },
+  {
+    "Position": "45",
+    "Name": "Andrew Dickson",
+    "Time": "00:23:05"
+  },
+  {
+    "Position": "46",
+    "Name": "Liam Whitelaw",
+    "Time": "00:23:09"
+  },
+  {
+    "Position": "47",
+    "Name": "James Meadows",
+    "Time": "00:23:10",
+    "id": "3217",
+    "name": "James Meadows",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Cleveland Wheelers CC"
+  },
+  {
+    "Position": "48",
+    "Name": "Patrick Deane",
+    "Time": "00:23:11"
+  },
+  {
+    "Position": "49",
+    "Name": "Kevin Hall",
+    "Time": "00:23:13"
+  },
+  {
+    "Position": "50",
+    "Name": "Sam Dodd",
+    "Time": "00:23:16"
+  },
+  {
+    "Position": "51",
+    "Name": "Mike Harris",
+    "Time": "00:23:25"
+  },
+  {
+    "Position": "52",
+    "Name": "Russell Hughes",
+    "Time": "00:23:27"
+  },
+  {
+    "Position": "53",
+    "Name": "Tom Guy",
+    "Time": "00:23:35"
+  },
+  {
+    "Position": "54",
+    "Name": "David Pritchard",
+    "Time": "00:23:40"
+  },
+  {
+    "Position": "55",
+    "Name": "Lee Statham",
+    "Time": "00:23:45"
+  },
+  {
+    "Position": "56",
+    "Name": "David Swainson",
+    "Time": "00:23:51"
+  },
+  {
+    "Position": "57",
+    "Name": "Ben Osborne",
+    "Time": "00:24:00"
+  },
+  {
+    "Position": "58",
+    "Name": "David Milton",
+    "Time": "00:24:08"
+  },
+  {
+    "Position": "59",
+    "Name": "James Corfield",
+    "Time": "00:24:12"
+  },
+  {
+    "Position": "60",
+    "Name": "Neil Parkin",
+    "Time": "00:24:14"
+  },
+  {
+    "Position": "61",
+    "Name": "Tony Thompson",
+    "Time": "00:24:16"
+  },
+  {
+    "Position": "62",
+    "Name": "Peter Iffland",
+    "Time": "00:24:33"
+  },
+  {
+    "Position": "63",
+    "Name": "Kyle Spenc",
+    "Time": "00:24:45"
+  },
+  {
+    "Position": "64",
+    "Name": "David Hordon",
+    "Time": "00:24:46"
+  },
+  {
+    "Position": "65",
+    "Name": "Andrew Thorp",
+    "Time": "00:24:47"
+  },
+  {
+    "Position": "66",
+    "Name": "Keith Sibbald",
+    "Time": "00:24:51"
+  },
+  {
+    "Position": "67",
+    "Name": "Stephen McIntosh",
+    "Time": "00:24:53"
+  },
+  {
+    "Position": "68",
+    "Name": "Gemma Hutchins",
+    "Time": "00:24:54"
+  },
+  {
+    "Position": "69",
+    "Name": "Richard Exley",
+    "Time": "00:24:57"
+  },
+  {
+    "Position": "70",
+    "Name": "Charlotte Cooper",
+    "Time": "00:25:07"
+  },
+  {
+    "Position": "71",
+    "Name": "Stephen Hill",
+    "Time": "00:25:09",
+    "id": "3214",
+    "name": "Stephen Hill",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Alnwick Cycling Club "
+  },
+  {
+    "Position": "72",
+    "Name": "Richard Cleathero",
+    "Time": "00:25:38"
+  },
+  {
+    "Position": "73",
+    "Name": "Raymond Bell",
+    "Time": "00:25:56",
+    "id": "4497",
+    "name": "Raymond Bell",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC"
+  },
+  {
+    "Position": "74",
+    "Name": "Caroline Golightly",
+    "Time": "00:30:14"
+  },
+  {
+    "Position": "75",
+    "Name": "Ellie Barr",
+    "Time": "00:31:53"
+  },
+  {
+    "Position": "DNS",
+    "Name": "Mark Herbert",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Paul Wright",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Jamie Johnson",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Bev Martin",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Sebastian Stockbridge",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Keith Davison",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Nikola Matthews",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Simon Gaunt",
+    "Time": ""
+  }
+]

@@ -53,7 +53,7 @@ const events = [
   { id: '15378', name: 'Cestria Cc (Cheques To R Mitford)', course: 'M9', distance: 9, fee: 9.50, date: '24 June 2017', length: 'short', closes: '06 June 2017', provisional: true },
   { id: '15392', name: '(B) Houghton Cc', course: 'M254', distance: 25, fee: 8.50, date: '25 June 2017', length: 'medium', closes: '13 June 2017' },
   { id: '15524', name: '(B) Gosforth Rc (N&Dca Champs)(Cheques To Gosforth Rc)', course: 'M2511', distance: 25, fee: 8.50, date: '09 July 2017', length: 'medium', closes: '27 June 2017', provisional: true },
-  { id: '15534', name: 'Barnesbury Cc (80 Riders)(Cheques To B Bayne)', course: 'M102B', distance: 10, fee: 8.50, date: '12 July 2017', length: 'short', closes: '01 July 2017' },
+  { id: '15534', name: 'Barnesbury Cc (80 Riders)(Cheques To B Bayne)', course: 'M102B', distance: 10, fee: 8.50, date: '12 July 2017', length: 'short', closes: '01 July 2017', provisional: true },
   { id: '15587', name: 'Blaydon Cc', course: 'M14', distance: 14, fee: 8.50, date: '15 July 2017', length: 'short', closes: '04 July 2017' },
   { id: '15601', name: 'Gs Metro', course: 'M26', distance: 26, fee: 8.50, date: '22 July 2017', length: 'medium', closes: '11 July 2017' },
   { id: '15675', name: 'Sunderland Clarion Cc', course: 'M254', distance: 25, fee: 8.50, date: '30 July 2017', length: 'medium', closes: '18 July 2017' },
