@@ -3077,6 +3077,38 @@
   "age": "40",
   "inBar": true
 }, {
+  "id": "19504",
+  "name": "Lee Fothergill",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Blaydon CC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "19486",
+  "name": "Mark Whaley",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Blaydon CC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "19242",
+  "name": "Kevin Hopper",
+  "sex": "Male",
+  "category": "Vet",
+  "club": "Blaydon CC",
+  "age": "40",
+  "inBar": true
+}, {
+  "id": "19467",
+  "name": "Andrea Clarke",
+  "sex": "Female",
+  "category": "Vet",
+  "club": "Blaydon CC",
+  "age": "40",
+  "inBar": true
+}, {
   "id": "2727",
   "name": "wayne coates",
   "sex": "Male",

@@ -1,0 +1,306 @@
+[{
+    "Position": "1",
+    "Name": "Zeb Kyffin",
+    "Time": "00:33:51"
+  },
+  {
+    "Position": "2",
+    "Name": "Adam Wild",
+    "Time": "00:34:36"
+  },
+  {
+    "Position": "3",
+    "Name": "Mark Robertson",
+    "Time": "00:36:20"
+  },
+  {
+    "Position": "4",
+    "Name": "Adam Jarps",
+    "Time": "00:36:23"
+  },
+  {
+    "Position": "5",
+    "Name": "Steven Craggs",
+    "Time": "00:36:52"
+  },
+  {
+    "Position": "5",
+    "Name": "Ian Norris",
+    "Time": "00:36:52",
+    "id": "6124",
+    "name": "Ian Norris",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Blumilk.com"
+  },
+  {
+    "Position": "7",
+    "Name": "Colin Atkinson",
+    "Time": "00:37:08"
+  },
+  {
+    "Position": "8",
+    "Name": "Lewis Timmins",
+    "Time": "00:37:19"
+  },
+  {
+    "Position": "9",
+    "Name": "Richard Lilleker",
+    "Time": "00:37:23"
+  },
+  {
+    "Position": "10",
+    "Name": "Simon Gibbs",
+    "Time": "00:37:26"
+  },
+  {
+    "Position": "11",
+    "Name": "Hedley Fletcher",
+    "Time": "00:37:27"
+  },
+  {
+    "Position": "12",
+    "Name": "Nicholas Stevenson",
+    "Time": "00:38:00"
+  },
+  {
+    "Position": "13",
+    "Name": "Kris Adlington",
+    "Time": "00:38:26"
+  },
+  {
+    "Position": "14",
+    "Name": "Justin Ramel",
+    "Time": "00:38:42"
+  },
+  {
+    "Position": "15",
+    "Name": "James Corfield",
+    "Time": "00:38:56"
+  },
+  {
+    "Position": "16",
+    "Name": "James O'Reilly",
+    "Time": "00:39:19"
+  },
+  {
+    "Position": "17",
+    "Name": "Paul Hague",
+    "Time": "00:39:24"
+  },
+  {
+    "Position": "17",
+    "Name": "Thomas Hutchinson",
+    "Time": "00:39:24"
+  },
+  {
+    "Position": "17",
+    "Name": "Nick Badcock",
+    "Time": "00:39:24"
+  },
+  {
+    "Position": "20",
+    "Name": "Julian MacBride",
+    "Time": "00:39:38"
+  },
+  {
+    "Position": "21",
+    "Name": "Eoin Gormley",
+    "Time": "00:40:03"
+  },
+  {
+    "Position": "22",
+    "Name": "Jamie Ruddell",
+    "Time": "00:40:23"
+  },
+  {
+    "Position": "23",
+    "Name": "Paul Wright",
+    "Time": "00:40:37",
+    "id": "13",
+    "name": "Paul Wright",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC"
+  },
+  {
+    "Position": "24",
+    "Name": "Peter Herdman",
+    "Time": "00:40:58"
+  },
+  {
+    "Position": "25",
+    "Name": "Mal Gray",
+    "Time": "00:41:06"
+  },
+  {
+    "Position": "26",
+    "Name": "Gemma Frost",
+    "Time": "00:41:24"
+  },
+  {
+    "Position": "27",
+    "Name": "John Paul Herron",
+    "Time": "00:41:55"
+  },
+  {
+    "Position": "28",
+    "Name": "Jennifer Batey",
+    "Time": "00:41:59"
+  },
+  {
+    "Position": "29",
+    "Name": "Colin Humphrey",
+    "Time": "00:42:04"
+  },
+  {
+    "Position": "30",
+    "Name": "Ian Gallon",
+    "Time": "00:42:19"
+  },
+  {
+    "Position": "31",
+    "Name": "Michael Hindmarch",
+    "Time": "00:42:30"
+  },
+  {
+    "Position": "32",
+    "Name": "Tim Nichol",
+    "Time": "00:42:33"
+  },
+  {
+    "Position": "33",
+    "Name": "Fiona Burnie",
+    "Time": "00:43:04"
+  },
+  {
+    "Position": "34",
+    "Name": "Graham McKinney",
+    "Time": "00:44:33"
+  },
+  {
+    "Position": "35",
+    "Name": "Lee Fothergill",
+    "Time": "00:44:52"
+  },
+  {
+    "Position": "36",
+    "Name": "David Symes",
+    "Time": "00:45:37"
+  },
+  {
+    "Position": "37",
+    "Name": "Mark Whaley",
+    "Time": "00:45:39"
+  },
+  {
+    "Position": "38",
+    "Name": "Angela McGurk",
+    "Time": "00:48:24"
+  },
+  {
+    "Position": "39",
+    "Name": "Kevin Hopper",
+    "Time": "00:50:16"
+  },
+  {
+    "Position": "40",
+    "Name": "Jane Aston",
+    "Time": "00:51:19"
+  },
+  {
+    "Position": "41",
+    "Name": "Andrea Clarke",
+    "Time": "00:54:08"
+  },
+  {
+    "Position": "DNS",
+    "Name": "Sebastian Stockbridge",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Jo Short",
+    "Time": "",
+    "id": "6845",
+    "name": "Jo Short",
+    "gender": "Female",
+    "category": "Vet",
+    "club": "Darlington Cycling Club"
+  },
+  {
+    "Position": "DNS",
+    "Name": "Gemma Hutchins",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Russ Richardson",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Jamie Johnson",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Darren McBain",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Bev Martin",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Scott McCance",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Lester Grant",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Graeme Huston",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Paul Mitchell",
+    "Time": "",
+    "id": "964",
+    "name": "Paul Mitchell",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Blaydon CC"
+  },
+  {
+    "Position": "DNS",
+    "Name": "Ross Walton",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Archie Irving",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Tom Guy",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Michael Openshaw",
+    "Time": ""
+  },
+  {
+    "Position": "DNS",
+    "Name": "Kris Whitelaw",
+    "Time": ""
+  }
+]
