@@ -56,7 +56,7 @@ const events = [
   { id: '15534', name: 'Barnesbury Cc (80 Riders)(Cheques To B Bayne)', course: 'M102B', distance: 10, fee: 8.50, date: '12 July 2017', length: 'short', closes: '01 July 2017', provisional: true },
   { id: '15587', name: 'Blaydon Cc', course: 'M14', distance: 14, fee: 8.50, date: '15 July 2017', length: 'short', closes: '04 July 2017', provisional: true },
   { id: '15601', name: 'Gs Metro', course: 'M26', distance: 26, fee: 8.50, date: '22 July 2017', length: 'medium', closes: '11 July 2017', provisional: true },
-  { id: '15675', name: 'Sunderland Clarion Cc', course: 'M254', distance: 25, fee: 8.50, date: '30 July 2017', length: 'medium', closes: '18 July 2017' },
+  { id: '15675', name: 'Sunderland Clarion Cc', course: 'M254', distance: 25, fee: 8.50, date: '30 July 2017', length: 'medium', closes: '18 July 2017', provisional: true },
   { id: '15710', name: '(B) N & Dca (N&Dca Champs)', course: 'M509', distance: 50, fee: 8.50, date: '06 August 2017', length: 'long', closes: '25 July 2017' },
   { id: '15741', name: '(B) Tyneside Vagabonds Cc (N&Dca Champs)(Cheques To M Reed)', course: 'M100/20', distance: 100, fee: 10.00, date: '13 August 2017', length: 'long', closes: '01 August 2017' },
   { id: '15766', name: 'Cramlington Cc', course: 'M21', distance: 21, fee: 8.50, date: '19 August 2017', length: 'medium', closes: '08 August 2017' }
