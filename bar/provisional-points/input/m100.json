@@ -1,0 +1,248 @@
+[
+	{
+		"Position": "1",
+		"Name": "Adam Wild",
+		"Time": "03:56:58"
+	},
+	{
+		"Position": "2",
+		"Name": "Eddie Addis",
+		"Time": "03:57:48"
+	},
+	{
+		"Position": "3",
+		"Name": "Tim Wilcock",
+		"Time": "04:06:28"
+	},
+	{
+		"Position": "4",
+		"Name": "Hedley Fletcher",
+		"Time": "04:11:07"
+	},
+	{
+		"Position": "5",
+		"Name": "Ross Walton",
+		"Time": "04:11:18"
+	},
+	{
+		"Position": "6",
+		"Name": "Justin Ramel",
+		"Time": "04:12:27"
+	},
+	{
+		"Position": "7",
+		"Name": "Ali Bailey",
+		"Time": "04:13:54"
+	},
+	{
+		"Position": "8",
+		"Name": "Matt Collison",
+		"Time": "04:14:02"
+	},
+	{
+		"Position": "9",
+		"Name": "Sean Kennedy",
+		"Time": "04:14:42"
+	},
+	{
+		"Position": "10",
+		"Name": "Ken Thursby",
+		"Time": "04:20:48"
+	},
+	{
+		"Position": "11",
+		"Name": "Chris Mather",
+		"Time": "04:21:42"
+	},
+	{
+		"Position": "12",
+		"Name": "Ian Simon",
+		"Time": "04:23:28"
+	},
+	{
+		"Position": "13",
+		"Name": "Venda Louise Pollock",
+		"Time": "04:24:57"
+	},
+	{
+		"Position": "14",
+		"Name": "Tim Nichol",
+		"Time": "04:28:35"
+	},
+	{
+		"Position": "15",
+		"Name": "Don Speight",
+		"Time": "04:28:57"
+	},
+	{
+		"Position": "16",
+		"Name": "Paul Wright",
+    "Time": "04:34:07",
+    "id": "13",
+    "name": "Paul Wright",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC"
+
+	},
+	{
+		"Position": "17",
+		"Name": "Dean Madden",
+		"Time": "04:34:10"
+	},
+	{
+		"Position": "18",
+		"Name": "Keith Sibbald",
+		"Time": "04:46:43"
+	},
+	{
+		"Position": "19",
+		"Name": "Donald McLean",
+		"Time": "04:53:14*"
+	},
+	{
+		"Position": "20",
+		"Name": "Mark Leadbetter",
+		"Time": "04:53:14*"
+	},
+	{
+		"Position": "21",
+		"Name": "Craig Deacon",
+		"Time": "04:54:11"
+	},
+	{
+		"Position": "22",
+		"Name": "Philip Mason",
+		"Time": "05:00:12"
+	},
+	{
+		"Position": "23",
+		"Name": "Mrtin Rasmussen",
+		"Time": "05:00:18"
+	},
+	{
+		"Position": "24",
+		"Name": "Patrick Martin",
+		"Time": "05:02:47*"
+	},
+	{
+		"Position": "25",
+		"Name": "Raymond Bell",
+    "Time": "05:07:54",
+    "id": "4497",
+    "name": "Raymond Bell",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC"
+	},
+	{
+		"Position": "26",
+		"Name": "Angela McGurk",
+		"Time": "05:26:54"
+	},
+	{
+		"Position": "27",
+		"Name": "Kath Finn",
+		"Time": "05:31:05"
+	},
+	{
+		"Position": "DNF",
+		"Name": "Tania Tucker",
+		"Time": ""
+	},
+	{
+		"Position": "DNF",
+		"Name": "Stephen Knight",
+		"Time": ""
+	},
+	{
+		"Position": "DNF",
+		"Name": "Kevin Ross",
+		"Time": ""
+	},
+	{
+		"Position": "DNF",
+		"Name": "Lee Statham",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Hannah Baker",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Georgia Collins",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Michael Sloanes",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Chris Edmondson",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Harper VanSteenhouse",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Nick Badcock",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Darren Stow",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Phil Hall",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Gareth Clarke",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Alan Macaulay",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Matthew Webb",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Andrea Pogson",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Peter Watson",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Lewis Timmins",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Gemma Frost",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Colin Humphrey",
+		"Time": ""
+	}
+]
