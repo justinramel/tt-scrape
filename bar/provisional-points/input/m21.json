@@ -1,0 +1,287 @@
+[
+	{
+		"Position": "1",
+		"Name": "Adam Wild",
+		"Time": "0:47:39"
+	},
+	{
+		"Position": "2",
+		"Name": "Harry Walker",
+		"Time": "0:48:15"
+	},
+	{
+		"Position": "3",
+		"Name": "Colin Atkinson",
+		"Time": "0:50:15"
+	},
+	{
+		"Position": "4",
+		"Name": "Justin Ramel",
+		"Time": "0:51:02"
+	},
+	{
+		"Position": "5",
+		"Name": "Darren Stow",
+		"Time": "0:51:05"
+	},
+	{
+		"Position": "6",
+		"Name": "Andrew Hall",
+    "Time": "0:51:06",
+    "id": "554",
+    "name": "Andrew Hall",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "GS Metro"
+	},
+	{
+		"Position": "7",
+		"Name": "David Robinson",
+    "Time": "0:51:44",
+    "id": "6872",
+    "name": "David Robinson",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Tyneside Vagabonds CC"
+	},
+	{
+		"Position": "8",
+		"Name": "Adam Wilson",
+		"Time": "0:52:39"
+	},
+	{
+		"Position": "9",
+		"Name": "Craig Fenwick",
+		"Time": "0:52:46"
+	},
+	{
+		"Position": "10",
+		"Name": "Gemma Frost",
+		"Time": "0:53:21"
+	},
+	{
+		"Position": "11",
+		"Name": "Chris Wood",
+    "Time": "0:53:30",
+    "id": "4358",
+    "name": "Chris Wood",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "TS Racing Team - OTR"
+	},
+	{
+		"Position": "12",
+		"Name": "Benjamin Potter",
+		"Time": "0:53:54"
+	},
+	{
+		"Position": "13",
+		"Name": "Shaun Brannan",
+		"Time": "0:53:59"
+	},
+	{
+		"Position": "14",
+		"Name": "Jamie Ruddell",
+		"Time": "0:54:19"
+	},
+	{
+		"Position": "15",
+		"Name": "Liam Whitelaw",
+		"Time": "0:54:42"
+	},
+	{
+		"Position": "16",
+		"Name": "Paul Wright",
+    "Time": "0:55:19",
+    "id": "13",
+    "name": "Paul Wright",
+    "gender": "Male",
+    "category": "Senior",
+    "club": "Blaydon CC"
+	},
+	{
+		"Position": "17",
+		"Name": "Tim Nichol",
+		"Time": "0:55:21"
+	},
+	{
+		"Position": "18",
+		"Name": "Jason Robson",
+		"Time": "0:56:01"
+	},
+	{
+		"Position": "19",
+		"Name": "Matt Collison",
+		"Time": "0:56:15"
+	},
+	{
+		"Position": "20",
+		"Name": "Mark Whaley",
+		"Time": "0:56:28"
+	},
+	{
+		"Position": "21",
+		"Name": "David Swainson",
+		"Time": "0:57:09"
+	},
+	{
+		"Position": "22",
+		"Name": "Ian Gallon",
+		"Time": "0:57:26"
+	},
+	{
+		"Position": "23",
+		"Name": "Christopher Ramshaw",
+		"Time": "0:58:08"
+	},
+	{
+		"Position": "24",
+		"Name": "Keith Sibbald",
+		"Time": "0:59:29"
+	},
+	{
+		"Position": "25",
+		"Name": "Peter Stokoe",
+		"Time": "1:00:07"
+	},
+	{
+		"Position": "26",
+		"Name": "Richard Sill",
+		"Time": "1:00:14"
+	},
+	{
+		"Position": "27",
+		"Name": "Francis Smith",
+		"Time": "1:00:44"
+	},
+	{
+		"Position": "28",
+		"Name": "Tony Thompson",
+		"Time": "1:00:51"
+	},
+	{
+		"Position": "29",
+		"Name": "Raymond Bell",
+    "Time": "1:01:52",
+    "id": "4497",
+    "name": "Raymond Bell",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Derwentside CC"
+	},
+	{
+		"Position": "30",
+		"Name": "David Cole",
+		"Time": "1:02:53"
+	},
+	{
+		"Position": "31",
+		"Name": "Louise Hamilton",
+		"Time": "1:02:56"
+	},
+	{
+		"Position": "32",
+		"Name": "Richard Exley",
+		"Time": "1:03:17"
+	},
+	{
+		"Position": "33",
+		"Name": "Graeme Huston",
+		"Time": "1:05:21"
+	},
+	{
+		"Position": "34",
+		"Name": "Jennifer Holland",
+		"Time": "1:05:57"
+	},
+	{
+		"Position": "35",
+		"Name": "Joe Applegarth",
+    "Time": "1:18:10",
+    "id": "4627",
+    "name": "Joe Applegarth",
+    "gender": "Male",
+    "category": "Vet",
+    "club": "Houghton CC"
+	},
+	{
+		"Position": "DNS",
+		"Name": "Sam Dodd",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Brendan Mcmillan",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Neil Parkin",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Philip KENNELL",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Neil Baxter",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Sam Murray",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Keith Murray",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Venda Louise Pollock",
+		"Time": ""
+	},
+	{
+		"Position": "DNF",
+		"Name": "Andrew Thorp",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Keith Davison",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Kevin Hopper",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Simon Gibbs",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Derek McGuire",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Paul Lucas",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Stephen McIntosh",
+		"Time": ""
+	},
+	{
+		"Position": "DNS",
+		"Name": "Sam Johnson",
+		"Time": ""
+	}
+]

@@ -2,8 +2,8 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 
-const eventUrl = 'https://www.cyclingtimetrials.org.uk/race-entrant-list/15675'
-const course = 'M254'
+const eventUrl = 'https://www.cyclingtimetrials.org.uk/race-entrant-list/15766'
+const course = 'M21'
 const distance = '25 Miles'
 
 axios.get(eventUrl)
